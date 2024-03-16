@@ -63,7 +63,13 @@ nav {
 }
 
 /* Main Content */
-
+main {
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
+  }
 
 /* Footer */
 #social-networks {
