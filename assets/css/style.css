@@ -100,6 +100,24 @@ main {
     line-height: 45px;
   }
 
+  /* Strength Section */
+#strength {
+    background-color: black;
+    height: 600px;
+    width: 100%;
+    color: white;
+    position: absolute;
+    top: 700px;
+    z-index: 2;
+  }
+  
+  #strength-heading {
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+  text-transform: uppercase;
+  }
+
 /* Footer */
 #social-networks {
     background-color: rgba(0, 0, 0, 1);
