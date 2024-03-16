@@ -71,6 +71,17 @@ main {
     flex-direction: column;
   }
 
+  /* Hero Section */
+#hero {
+    height: 700px;
+    width: 100%;
+    background-image: url("../images/hero-image.webp");
+    background-size: cover;
+    background-position: 70%;
+    padding: 0 10% 0 10%;
+    background-attachment: fixed;
+  }
+
 /* Footer */
 #social-networks {
     background-color: rgba(0, 0, 0, 1);
