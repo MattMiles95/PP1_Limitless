@@ -50,3 +50,14 @@ nav {
         color: inherit;
         text-decoration: none;
       }
+
+      #logo {
+        color: white;
+        font-weight: 800;
+        font-size: 14px;
+      }
+      
+      .divide {
+        font-size: 25px;
+        font-weight: lighter;
+      }
