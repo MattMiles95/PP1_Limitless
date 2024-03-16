@@ -16,3 +16,7 @@ body {
     /*Generic project styles*/
     font-family: 'anybody', arial, sans-serif;
   }
+
+  .hidden-heading {
+    display: none;
+  }
