@@ -34,7 +34,7 @@ nav {
     align-items: baseline;
 }
 
-#menu {
+#nav-menu {
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -46,7 +46,7 @@ nav {
     text-transform: uppercase;
 }
 
-#menu a {
+#nav-menu a {
     color: inherit;
     text-decoration: none;
 }
