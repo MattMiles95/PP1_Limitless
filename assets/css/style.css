@@ -82,7 +82,7 @@ main {
   background-image: url("../images/hero-image.webp");
   background-size: cover;
   background-position: 70%;
-  position: fixed;
+  background-attachment: fixed;
   padding: 0 10% 0 10%;
 }
 
@@ -93,7 +93,6 @@ main {
   position: fixed;
   top: 600px;
   left: 15px;
-  /* color: white; */
   text-transform: uppercase;
   font-style: italic;
   z-index: 0;
@@ -113,17 +112,14 @@ main {
 /* Strength Section */
 #strength {
   background-color: black;
-  height: 600px;
   width: 100%;
   color: white;
-  position: absolute;
-  top: 800px;
   display: flex;
   flex-direction: column;
   z-index: 2;
 }
 
-#strength-heading {
+#strength > h2 {
   display: flex;
   justify-content: center;
   margin: 50px auto;
@@ -136,7 +132,6 @@ main {
 #strength-image > img {
     width: 100%;
     object-fit: contain;
-    position: absolute;
 }
 
 /* Footer */
