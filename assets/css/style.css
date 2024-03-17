@@ -116,27 +116,31 @@ main {
   display: flex;
   flex-direction: column;
   z-index: 2;
+  position: relative;
 }
 
 #strength-image {
     display: flex;
+    width: 100%;
 }
 
 #strength-image > img {
-  width: 80%;
-  margin: 2em auto 0;
+  width: 90%;
+  margin: 1em auto 1em;
   object-fit: cover;
   border-radius: 8%;
 }
 
 #strength > h2 {
-  display: flex;
-  justify-content: center;
-  margin: 35px auto;
-  text-transform: uppercase;
-  font-size: 155%;
-  flex-wrap: wrap;
+  color: slategray;
+  position: absolute;
+  text-wrap: wrap;
   text-align: center;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%);
+  text-transform: uppercase;
+  font-size: 200%;
 }
 
 /* Footer */
