@@ -94,8 +94,9 @@ main {
   border-radius: 5%;
   padding: 10px;
   position: absolute;
-  top: 600px;
-  left: 15px;
+  top: 72%;
+  left: 32%;
+  transform: translate(-40%);
   text-transform: uppercase;
   font-style: italic;
 }
