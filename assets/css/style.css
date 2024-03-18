@@ -376,6 +376,13 @@ main {
     margin-top: 20px;
 }
 
+#partners > h3 {
+    color: white;
+    font-size: 140%;
+    text-align: center;
+    margin: 20px 0 30px;
+}
+
 #partner-logos {
     display: flex;
     align-items: center;
