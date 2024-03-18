@@ -378,15 +378,15 @@ main {
 
 #partner-logos {
     display: flex;
-    align-items: stretch;
+    align-items: center;
     justify-content: space-evenly;
     margin: 20px 0;
 }
 
 #partner-logos img {
-   width: auto;
-   height: 10vh;
-   margin-right: 5px;
+   width: 110px;
+   height: auto;
+   margin: 0 auto;
 }
 
 
