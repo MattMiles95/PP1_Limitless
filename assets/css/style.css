@@ -140,11 +140,11 @@ main {
   position: absolute;
   text-wrap: wrap;
   text-align: center;
-  top: 20%;
+  top: 15%;
   left: 50%;
   transform: translate(-50%);
   text-transform: uppercase;
-  font-size: 200%;
+  font-size: 250%;
 }
 
 #strength-text {
@@ -167,6 +167,61 @@ main {
     width: 85%;
     margin: 15px auto;
 }
+
+/* Endurance Section */
+#endurance {
+    background-color: black;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    position: relative;
+  }
+  
+  #endurance-image {
+      display: flex;
+      width: 100%;
+  }
+  
+  #endurance-image > img {
+    width: 100%;
+    margin: 0 auto 1em;
+    object-fit: cover;
+  }
+  
+  #endurance > h2 {
+    color: white;
+    position: absolute;
+    text-wrap: wrap;
+    text-align: center;
+    top: 17%;
+    left: 35%;
+    transform: translate(-50%);
+    text-transform: uppercase;
+    font-size: 250%;
+  }
+  
+  #endurance-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-wrap: wrap;
+  }
+  
+  #endurance-text > h3 {
+      text-align: center;
+      width: 90%;
+      margin: 10px auto 0;
+      text-transform: uppercase;
+      font-size: 125%;
+  }
+  
+  #endurance-text > p {
+      text-align: justify;
+      width: 85%;
+      margin: 15px auto;
+  }
 
 /* Footer */
 #social-networks {
