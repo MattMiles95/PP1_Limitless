@@ -21,7 +21,9 @@ body {
   display: none;
 }
 
-
+.underline {
+    text-decoration: underline;
+}
 
 /* Header */
 
@@ -143,6 +145,27 @@ main {
   transform: translate(-50%);
   text-transform: uppercase;
   font-size: 200%;
+}
+
+#strength-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-wrap: wrap;
+}
+
+#strength-text > h3 {
+    text-align: center;
+    width: 90%;
+    margin: 10px auto 0;
+    text-transform: uppercase;
+    font-size: 125%;
+}
+
+#strength-text > p {
+    text-align: justify;
+    width: 85%;
+    margin: 15px auto;
 }
 
 /* Footer */
