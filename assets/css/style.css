@@ -153,6 +153,7 @@ main {
   flex-direction: column;
   align-items: center;
   text-wrap: wrap;
+  word-spacing: 2px;
 }
 
 #strength-text > h3 {
@@ -212,6 +213,7 @@ main {
   flex-direction: column;
   align-items: center;
   text-wrap: wrap;
+  word-spacing: 2px;
 }
 
 #endurance-text > h3 {
@@ -271,6 +273,7 @@ main {
   flex-direction: column;
   align-items: center;
   text-wrap: wrap;
+  word-spacing: 2px;
 }
 
 #diet-text > h3 {
