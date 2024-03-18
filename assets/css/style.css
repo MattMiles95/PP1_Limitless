@@ -363,9 +363,11 @@ main {
   font-size: 115%;
 }
 
+/* Footer */
 /* Partners Section */
 #partners {
     background-color: black;
+    margin: 0;
 }
 
 #partners > h2 {
@@ -373,14 +375,15 @@ main {
     font-size: 200%;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 20px;
+    padding-top: 30px;
 }
 
 #partners > h3 {
     color: white;
     font-size: 140%;
     text-align: center;
-    margin: 20px 0 30px;
+    margin: 0 5px;
+    padding-bottom: 20px;
 }
 
 #partner-logos {
@@ -395,20 +398,17 @@ main {
    height: auto;
    margin: 0 auto;
 }
-
-
-/* Footer */
 #social-networks {
   background-color: rgba(0, 0, 0, 1);
   text-align: center;
-  padding: 10px 0;
+  padding: 20px 10px;
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
 }
 
 #social-networks i {
-  font-size: 160%;
+  font-size: 200%;
   padding: 5%;
   color: white;
 }
