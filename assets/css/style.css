@@ -405,15 +405,16 @@ main {
 #mission-statement {
   width: 80%;
   margin-bottom: 15px;
-  text-transform: uppercase;
 }
 
 #mission-statement > h2 {
+  text-transform: uppercase;
   margin-bottom: 2px;
 }
 
 #mission-statement > h3 {
   font-style: italic;
+  text-transform: uppercase;
   margin-bottom: 2px;
 }
 
