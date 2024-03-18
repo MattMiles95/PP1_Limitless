@@ -132,7 +132,8 @@ main {
   width: 90%;
   margin: 1em auto 1em;
   object-fit: cover;
-  border-radius: 8%;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
 }
 
 #strength > h2 {
