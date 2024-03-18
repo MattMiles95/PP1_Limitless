@@ -31,7 +31,7 @@ nav {
   background-color: rgba(0, 0, 0, 0.7);
   padding: 15px 10px;
   position: fixed;
-  z-index: 98;
+  z-index: 99;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -98,7 +98,6 @@ main {
   left: 15px;
   text-transform: uppercase;
   font-style: italic;
-  z-index: 0;
 }
 
 #cover-text > h2 {
@@ -119,7 +118,6 @@ main {
   color: slategrey;
   display: flex;
   flex-direction: column;
-  z-index: 2;
   position: relative;
 }
 
@@ -179,7 +177,6 @@ main {
   color: white;
   display: flex;
   flex-direction: column;
-  z-index: 2;
   position: relative;
 }
 
@@ -238,7 +235,6 @@ main {
   color: white;
   display: flex;
   flex-direction: column;
-  z-index: 2;
   position: relative;
 }
 
@@ -298,7 +294,6 @@ main {
     color: white;
     display: flex;
     flex-direction: column;
-    z-index: 2;
     position: relative;
   }
   
@@ -360,14 +355,12 @@ main {
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
-  z-index: 3;
-}
+ }
 
 #social-networks i {
   font-size: 160%;
   padding: 5%;
   color: white;
-  z-index: 2;
 }
 
 /* Responsivity - Media Queries */
