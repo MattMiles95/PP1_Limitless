@@ -398,6 +398,38 @@ main {
    height: auto;
    margin: 0 auto;
 }
+
+/* Contact Section */
+#contact {
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 70%;
+}
+
+#mission-statement {
+    width: 80%;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+#mission-statement > h2 {
+    margin-bottom: 2px;
+}
+
+#mission-statement > h3 {
+    font-style: italic;
+    margin-bottom: 2px;
+}
+
+.contact-details {
+    margin-bottom: 10px;
+}
+
+/* Social Networks Section */
 #social-networks {
   background-color: rgba(0, 0, 0, 1);
   text-align: center;
