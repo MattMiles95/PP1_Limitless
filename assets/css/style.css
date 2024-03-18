@@ -144,10 +144,7 @@ main {
 
 #strength-image > img {
   width: 100%;
-  margin: 0 auto 1em;
   object-fit: cover;
-  border-bottom-left-radius: 20%;
-  border-bottom-right-radius: 20%;
 }
 
 #strength > h2 {
@@ -203,10 +200,8 @@ main {
 
 #endurance-image > img {
   width: 100%;
-  margin: 0 auto 1em;
+  margin-bottom: 10px;
   object-fit: cover;
-  border-bottom-left-radius: 20%;
-  border-bottom-right-radius: 20%;
 }
 
 #endurance > h2 {
@@ -261,10 +256,8 @@ main {
 
 #diet-image > img {
   width: 100%;
-  margin: 0 auto 1em;
+  margin-bottom: 10px;
   object-fit: cover;
-  border-bottom-left-radius: 20%;
-  border-bottom-right-radius: 20%;
 }
 
 #diet > h2 {
@@ -320,10 +313,8 @@ main {
 
 #recovery-image > img {
   width: 100%;
-  margin: 0 auto 1em;
+  margin-bottom: 10px;
   object-fit: cover;
-  border-bottom-left-radius: 20%;
-  border-bottom-right-radius: 20%;
 }
 
 #recovery > h2 {
@@ -366,67 +357,67 @@ main {
 /* Footer */
 /* Partners Section */
 #partners {
-    background-color: black;
-    margin: 0;
+  background-color: black;
+  margin: 0;
 }
 
 #partners > h2 {
-    color: white;
-    font-size: 200%;
-    text-transform: uppercase;
-    text-align: center;
-    padding-top: 30px;
+  color: white;
+  font-size: 200%;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
 }
 
 #partners > h3 {
-    color: white;
-    font-size: 140%;
-    text-align: center;
-    margin: 0 5px;
-    padding-bottom: 20px;
+  color: white;
+  font-size: 140%;
+  text-align: center;
+  margin: 0 5px;
+  padding-bottom: 20px;
 }
 
 #partner-logos {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px 0;
 }
 
 #partner-logos img {
-   width: 110px;
-   height: auto;
-   margin: 0 auto;
+  width: 110px;
+  height: auto;
+  margin: 0 auto;
 }
 
 /* Contact Section */
 #contact {
-    background-color: black;
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 70%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 70%;
 }
 
 #mission-statement {
-    width: 80%;
-    margin-bottom: 15px;
-    text-transform: uppercase;
+  width: 80%;
+  margin-bottom: 15px;
+  text-transform: uppercase;
 }
 
 #mission-statement > h2 {
-    margin-bottom: 2px;
+  margin-bottom: 2px;
 }
 
 #mission-statement > h3 {
-    font-style: italic;
-    margin-bottom: 2px;
+  font-style: italic;
+  margin-bottom: 2px;
 }
 
 .contact-details {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 /* Social Networks Section */
