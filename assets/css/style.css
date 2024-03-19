@@ -163,7 +163,7 @@ main {
   flex-direction: column;
   align-items: center;
   text-wrap: wrap;
-  word-spacing: 3px;
+  word-spacing: 2px;
 }
 
 #strength-text > h3 {
@@ -172,6 +172,7 @@ main {
   margin: 10px auto 0;
   text-transform: uppercase;
   font-size: 130%;
+  word-spacing: normal;
 }
 
 #strength-text > p {
@@ -220,7 +221,7 @@ main {
   flex-direction: column;
   align-items: center;
   text-wrap: wrap;
-  word-spacing: 3px;
+  word-spacing: 2px;
 }
 
 #endurance-text > h3 {
@@ -229,6 +230,7 @@ main {
   margin: 10px auto 0;
   text-transform: uppercase;
   font-size: 130%;
+  word-spacing: normal;
 }
 
 #endurance-text > p {
@@ -277,7 +279,7 @@ main {
   flex-direction: column;
   align-items: center;
   text-wrap: wrap;
-  word-spacing: 3px;
+  word-spacing: 2px;
 }
 
 #diet-text > h3 {
@@ -286,6 +288,7 @@ main {
   margin: 10px auto 0;
   text-transform: uppercase;
   font-size: 130%;
+  word-spacing: normal;
 }
 
 #diet-text > p {
@@ -317,7 +320,7 @@ main {
 }
 
 #recovery > h2 {
-  color: ;
+  color: white;
   position: absolute;
   text-wrap: wrap;
   text-align: center;
@@ -334,7 +337,7 @@ main {
   flex-direction: column;
   align-items: center;
   text-wrap: wrap;
-  word-spacing: 3px;
+  word-spacing: 2px;
   color: #263734;
 }
 
@@ -344,6 +347,7 @@ main {
   margin: 10px auto 0;
   text-transform: uppercase;
   font-size: 130%;
+  word-spacing: normal;
 }
 
 #recovery-text > p {
