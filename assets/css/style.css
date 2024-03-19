@@ -26,7 +26,6 @@ body {
 }
 
 /* Header */
-
 nav {
   background-color: rgba(0, 0, 0, 0.7);
   padding: 15px 10px;
@@ -76,7 +75,6 @@ main {
 }
 
 /* Hero Section */
-
 #hero {
   position: relative;
   height: 800px;
@@ -356,6 +354,10 @@ main {
 }
 
 /* Footer */
+footer {
+  background-color: black;
+}
+
 /* Partners Section */
 #partners {
   background-color: black;
