@@ -410,28 +410,40 @@ main {
   width: 100%;
   background-image: url("../images/black-fleck-background.webp");
   background-size: cover;
+  display: flex;
 }
 
 #fitxpo-content > img {
-  width: 350px;
+  width: 180px;
   height: auto;
   border-radius: 20%;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
   position: absolute;
-  top: 18%;
-  left: 37%;
+  top: 12%;
+  left: 21%;
   transform: translate(-35%);
 }
 
 #fitxpo-text {
+  text-align: left;
+  color: white;
+  font-size: 58%;
+  position: absolute;
+  top: 17%;
+  left: 64%;
+  transform: translate(-15%);
+  list-style-type: square;
+  word-spacing: 1px;
+  line-height: 10px;;
+}
 
+#fitxpo-text li::marker {
+  color: orange;
+  font-size: 150%;
 }
 
 /* Tough Mudder */
-
-
 /* Beyond the Limits 2024 */
-
 
 /* Mindful Earth */
 
