@@ -85,7 +85,7 @@ main {
   padding: 0 10% 0 10%;
 }
 
-#hero-header > h2 {
+#hero > h2 {
   background-color: rgba(0, 0, 0, 0.6);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
   border-radius: 5%;
