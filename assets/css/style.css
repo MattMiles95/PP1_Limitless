@@ -398,10 +398,19 @@ main {
   align-items: center;
 }
 
-#fitxpo-logo {
+#fitxpo-logo > img {
   width: 150px;
   height: auto;
-  margin: 10px;
+  margin: 10px auto 0;
+}
+
+#fitxpo-content {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  background-color: ;
+  background-image: url("../images/black-fleck-background.webp");
+  background-size: cover;
 }
 
 /* Tough Mudder */
