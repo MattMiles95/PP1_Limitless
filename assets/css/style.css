@@ -391,7 +391,18 @@ main {
 }
 
 /* FitXPO 2024 */
+#fitxpo {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+#fitxpo-logo {
+  width: 150px;
+  height: auto;
+  margin: 10px;
+}
 
 /* Tough Mudder */
 
