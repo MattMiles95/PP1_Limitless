@@ -453,6 +453,63 @@ margin-bottom: 10px;
 }
 
 /* Tough Mudder */
+#tough-mudder {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#tough-mudder-logo > img {
+  width: 200px;
+  height: auto;
+  margin: 5px auto 15px;
+}
+
+#tough-mudder-content {
+  position: relative;
+  height: 380px;
+  width: 100%;
+  background-image: url("../images/black-fleck-background.webp");
+  background-size: cover;
+  display: flex;
+}
+
+#tough-mudder-content > img {
+  width: auto;
+  height: 210px;
+  border-radius: 20%;
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.9);
+  position: absolute;
+  top: 22%;
+  left: 55%;
+  transform: translate(-35%);
+}
+
+#tough-mudder-text {
+  text-align: justify;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 10px 3px;
+  border-radius: 5px;
+  font-size: 58%;
+  position: absolute;
+  top: 19%;
+  left: 61%;
+  transform: translate(-15%);
+  list-style-type: none;
+  word-spacing: 1px;
+  line-height: 10px;;
+}
+
+#tough-mudder-text > li:not(last-child) {
+margin-bottom: 10px;
+}
+
+.orange-text {
+  color: #fe5e00;
+}
+
 /* Beyond the Limits 2024 */
 
 /* Mindful Earth */
