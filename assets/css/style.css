@@ -429,21 +429,27 @@ main {
 }
 
 #fitxpo-text {
-  text-align: left;
+  text-align: justify;
   color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
   font-size: 58%;
   position: absolute;
-  top: 17%;
-  left: 64%;
+  top: 19%;
+  left: 61%;
   transform: translate(-15%);
-  list-style-type: square;
+  list-style-type: none;
   word-spacing: 1px;
   line-height: 10px;;
 }
 
-#fitxpo-text li::marker {
-  color: orange;
-  font-size: 150%;
+#fitxpo-text > li:not(last-child) {
+margin-bottom: 10px;
+}
+
+.red-text {
+  color: #d12329;
 }
 
 /* Tough Mudder */
