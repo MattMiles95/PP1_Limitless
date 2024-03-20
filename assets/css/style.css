@@ -458,6 +458,7 @@ margin-bottom: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 #tough-mudder-logo > img {
@@ -481,7 +482,7 @@ margin-bottom: 10px;
   border-radius: 20%;
   box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.9);
   position: absolute;
-  top: 25%;
+  top: 20%;
   left: 62%;
   transform: translate(-35%);
 }
@@ -505,6 +506,18 @@ margin-bottom: 10px;
 
 #tough-mudder-text > li:not(last-child) {
 margin-bottom: 10px;
+}
+
+#tough-button > a {
+  width: 120px;
+}
+
+#tough-button img {
+  position: absolute;
+  width: 100px;
+  top: 78%;
+  left: 60%;
+  transform: translate(-15%);
 }
 
 .orange-text {
