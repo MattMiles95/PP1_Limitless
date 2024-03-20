@@ -418,12 +418,12 @@ main {
 }
 
 #fitxpo-content > img {
-  width: 180px;
+  width: 150px;
   height: auto;
   border-radius: 20%;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
   position: absolute;
-  top: 12%;
+  top: 13%;
   left: 21%;
   transform: translate(-35%);
 }
@@ -446,6 +446,14 @@ main {
 
 #fitxpo-text > li:not(last-child) {
 margin-bottom: 10px;
+}
+
+#fitxpo-button img {
+  position: absolute;
+  width: 100px;
+  top: 90%;
+  left: 18%;
+  transform: translate(-15%);
 }
 
 .red-text {
@@ -506,10 +514,6 @@ margin-bottom: 10px;
 
 #tough-mudder-text > li:not(last-child) {
 margin-bottom: 10px;
-}
-
-#tough-button > a {
-  width: 120px;
 }
 
 #tough-button img {
