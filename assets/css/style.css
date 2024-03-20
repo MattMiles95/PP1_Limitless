@@ -400,6 +400,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 #fitxpo-logo > img {
@@ -451,7 +452,7 @@ margin-bottom: 10px;
 #fitxpo-button img {
   position: absolute;
   width: 100px;
-  top: 90%;
+  top: 78%;
   left: 18%;
   transform: translate(-15%);
 }
