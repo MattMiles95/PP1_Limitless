@@ -461,9 +461,9 @@ margin-bottom: 10px;
 }
 
 #tough-mudder-logo > img {
-  width: 200px;
+  width: 150px;
   height: auto;
-  margin: 5px auto 15px;
+  margin: 0 auto 0;
 }
 
 #tough-mudder-content {
@@ -477,12 +477,12 @@ margin-bottom: 10px;
 
 #tough-mudder-content > img {
   width: auto;
-  height: 210px;
+  height: 190px;
   border-radius: 20%;
   box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.9);
   position: absolute;
-  top: 22%;
-  left: 55%;
+  top: 25%;
+  left: 62%;
   transform: translate(-35%);
 }
 
@@ -494,8 +494,9 @@ margin-bottom: 10px;
   border-radius: 5px;
   font-size: 58%;
   position: absolute;
-  top: 19%;
-  left: 61%;
+  width: 35%;
+  top: 22%;
+  left: 10%;
   transform: translate(-15%);
   list-style-type: none;
   word-spacing: 1px;
