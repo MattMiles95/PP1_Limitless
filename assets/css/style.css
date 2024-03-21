@@ -591,11 +591,11 @@ margin-bottom: 10px;
 margin-bottom: 10px;
 }
 
-#beyond-button img {
+#beyond-limits-button img {
   position: absolute;
-  width: 100px;
-  top: 85%;
-  left: 13%;
+  width: 110px;
+  top: 82%;
+  left: 67%;
   transform: translate(-15%);
 }
 
