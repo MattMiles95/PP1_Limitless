@@ -362,8 +362,8 @@ main {
 /* Events Hero Section */
 #events-hero {
   position: relative;
-  height: 400px;
-  width: 100%;
+  height: 250px;
+  width: auto;
   background-image: url("../images/events-hero-image.webp");
   background-size: cover;
   background-position: 53%;
@@ -374,23 +374,23 @@ main {
   width: 200px;
   padding: 15px;
   position: absolute;
-  top: 36%;
+  top: 34%;
   left: 20%;
   transform: translate(-40%);
   text-transform: uppercase;
   font-style: italic;
   color: white;
-  font-size: 200%;
-  line-height: 50px;
+  font-size: 170%;
+  line-height: 31px;
 }
 
 #events-hero > h2 {
   position: absolute;
-  top: 80%;
-  left: 32%;
+  top: 81%;
+  left: 30%;
   transform: translate(-40%);
   color: white;
-  font-size: 70%;
+  font-size: 60%;
   font-weight: 500;
 }
 
