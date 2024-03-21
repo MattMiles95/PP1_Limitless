@@ -535,6 +535,80 @@ margin-bottom: 10px;
 }
 
 /* Beyond the Limits 2024 */
+#beyond-limits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 390px;
+}
+
+#beyond-limits > h2 {
+  margin-top: 20px;
+  color: white;
+  font-size: 200%;
+  font-weight: 400;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-transform: uppercase;
+}
+
+#tough-mudder-content {
+  position: relative;
+  height: 380px;
+  width: 100%;
+  background-image: url("../images/black-background-torn.webp");
+  background-size: cover;
+  display: flex;
+}
+
+#tough-mudder-content > img {
+  width: auto;
+  height: 190px;
+  border-radius: 20%;
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.9);
+  position: absolute;
+  top: 10%;
+  left: 62%;
+  transform: translate(-35%);
+}
+
+#tough-mudder-text {
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 10px 3px;
+  border-radius: 5px;
+  font-size: 58%;
+  position: absolute;
+  width: 35%;
+  top: 6%;
+  left: 10%;
+  transform: translate(-15%);
+  list-style-type: none;
+  word-spacing: 1px;
+  line-height: 10px;;
+}
+
+#tough-mudder-text > li:not(last-child) {
+margin-bottom: 10px;
+}
+
+#tough-button img {
+  position: absolute;
+  width: 100px;
+  top: 85%;
+  left: 13%;
+  transform: translate(-15%);
+}
+
+.yellow-text {
+  color: #ffcb05;
+}
+
+.big-text {
+  font-size: 200%;
+  vertical-align: sub;
+}
 
 /* Mindful Earth */
 
