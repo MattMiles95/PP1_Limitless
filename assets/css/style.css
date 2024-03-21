@@ -360,6 +360,11 @@ main {
 /* Events Page*/
 
 /* Events Hero Section */
+#events-main {
+  background-image: url('../images/black-background.webp');
+  background-size: cover;
+}
+
 #events-hero {
   position: relative;
   height: 250px;
@@ -396,7 +401,6 @@ main {
 
 /* FitXPO 2024 */
 #fitxpo {
-  background-color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -463,7 +467,6 @@ margin-bottom: 10px;
 
 /* Tough Mudder */
 #tough-mudder {
-  background-color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
