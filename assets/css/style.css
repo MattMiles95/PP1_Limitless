@@ -472,7 +472,7 @@ margin-bottom: 10px;
   flex-direction: column;
   align-items: center;
   position: relative;
-  height: 390px;
+  height: 370px;
 }
 
 #tough-mudder-logo > img {
@@ -525,7 +525,7 @@ margin-bottom: 10px;
 #tough-button img {
   position: absolute;
   width: 100px;
-  top: 85%;
+  top: 89%;
   left: 13%;
   transform: translate(-15%);
 }
@@ -588,11 +588,11 @@ margin-bottom: 10px;
   line-height: 10px;
 }
 
-#tough-mudder-text > li:not(last-child) {
+#beyond-limits-text > li:not(last-child) {
 margin-bottom: 10px;
 }
 
-#tough-button img {
+#beyond-button img {
   position: absolute;
   width: 100px;
   top: 85%;
