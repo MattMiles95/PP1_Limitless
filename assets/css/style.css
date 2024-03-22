@@ -614,7 +614,7 @@ margin-bottom: 10px;
   flex-direction: column;
   align-items: center;
   position: relative;
-  height: 370px;
+  height: 400px;
   margin-top: 10px;
 }
 
@@ -682,7 +682,7 @@ margin-bottom: 10px;
 #mindful-button img {
   position: absolute;
   width: 100px;
-  top: 84%;
+  top: 80%;
   left: 13%;
   transform: translate(-15%);
 }
@@ -704,7 +704,7 @@ footer {
 
 #partners > h2 {
   color: white;
-  font-size: 200%;
+  font-size: 150%;
   text-transform: uppercase;
   text-align: center;
   padding-top: 30px;
@@ -712,7 +712,7 @@ footer {
 
 #partners > h3 {
   color: white;
-  font-size: 140%;
+  font-size: 95%;
   text-align: center;
   margin: 0 5px;
   padding-bottom: 20px;
@@ -726,7 +726,7 @@ footer {
 }
 
 #partner-logos img {
-  width: 110px;
+  width: 90px;
   height: auto;
   margin: 0 auto;
 }
@@ -735,15 +735,15 @@ footer {
 #contact {
   background-color: black;
   color: white;
-  text-align: center;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  font-size: 70%;
+  justify-content: space-evenly;
+  font-size: 50%;
+  margin-top: 20px;
 }
 
 #mission-statement {
-  width: 80%;
+  width: 40%;
   margin-bottom: 15px;
 }
 
@@ -755,11 +755,12 @@ footer {
 #mission-statement > h3 {
   font-style: italic;
   text-transform: uppercase;
-  margin-bottom: 2px;
+  margin-bottom: 7px;
 }
 
 .contact-details {
   margin-bottom: 10px;
+  text-align: right;
 }
 
 /* Social Networks Section */
@@ -773,7 +774,7 @@ footer {
 }
 
 #social-networks i {
-  font-size: 200%;
+  font-size: 180%;
   padding: 5%;
   color: white;
 }
