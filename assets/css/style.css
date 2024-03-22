@@ -609,6 +609,87 @@ margin-bottom: 10px;
 }
 
 /* Mindful Earth */
+#mindful-earth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 370px;
+  margin-top: 10px;
+}
+
+#mindful-heading {
+display: flex;
+position: relative;
+}
+
+#mindful-heading > h2 {
+  margin-top: 20px;
+  color: white;
+  font-size: 200%;
+  font-weight: 400;
+  font-family: 'ABeeZee', 'Arial Narrow Bold', sans-serif;
+  text-transform: uppercase;
+}
+
+#mindful-heading > img {
+  width: 80px;
+  height: auto;
+  margin: 0 auto 0;
+}
+
+#mindful-earth-content {
+  position: relative;
+  height: 380px;
+  width: 100%;
+  background-image: url("../images/black-background-torn.webp");
+  background-size: cover;
+  display: flex;
+}
+
+#mindful-earth-content > img {
+  width: auto;
+  height: 190px;
+  border-radius: 20%;
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.9);
+  position: absolute;
+  top: 10%;
+  left: 62%;
+  transform: translate(-35%);
+}
+
+#mindful-earth-text {
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 10px 3px;
+  border-radius: 5px;
+  font-size: 58%;
+  position: absolute;
+  width: 35%;
+  top: 3%;
+  left: 10%;
+  transform: translate(-15%);
+  list-style-type: none;
+  word-spacing: 1px;
+  line-height: 10px;
+}
+
+#mindful-earth-text > li:not(last-child) {
+margin-bottom: 10px;
+}
+
+#mindful-button img {
+  position: absolute;
+  width: 100px;
+  top: 89%;
+  left: 13%;
+  transform: translate(-15%);
+}
+
+.green-text {
+  color: #779d30;
+}
 
 /* Footer */
 footer {
