@@ -718,10 +718,6 @@ margin-bottom: 10px;
 /* Go Further Hero Section */
 
 #go-further-main {
-  
-}
-
-#go-further-hero {
   display: flex;
   flex-grow: 1;
   background-image: url('../images/go-further-hero.webp');
@@ -729,6 +725,9 @@ margin-bottom: 10px;
   background-position-x: 45%;
   background-attachment: fixed;
   position: relative;
+}
+
+#go-further-hero {
   height: 700px;
 }
 
@@ -753,6 +752,22 @@ margin-bottom: 10px;
 #go-further-headings > h2 {
   font-size: 100%;
   font-style: italic;
+}
+
+#go-further-signup div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#go-further-signup p {
+  width: 90%;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
 }
 
 /* Footer */
