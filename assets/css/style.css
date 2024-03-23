@@ -754,21 +754,18 @@ margin-bottom: 10px;
   font-style: italic;
 }
 
-#go-further-signup div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-#go-further-signup p {
+#go-further-signup {
   width: 90%;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 0px 10px 10px 0;
   color: white;
   background-color: rgba(0, 0, 0, 0.6);
-  text-align: center;
+  
 }
+
+#go-further-signup div {
+  text-align: center;
+  }
 
 /* Footer */
 footer {
