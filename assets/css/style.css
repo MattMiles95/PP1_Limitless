@@ -726,29 +726,29 @@ footer {
 
 #partners > h2 {
   color: white;
-  font-size: 170%;
+  font-size: 95%;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 30px;
+  margin: 30px auto 0;
 }
 
 #partners > h3 {
   color: white;
-  font-size: 95%;
+  font-size: 80%;
   text-align: center;
-  margin: 0 5px;
-  padding-bottom: 20px;
+  margin: 0 auto 5px;
+  padding-bottom: 15px;
 }
 
 #partner-logos {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 #partner-logos img {
-  width: 90px;
+  width: 50px;
   height: auto;
   margin: 0 auto;
 }
@@ -761,7 +761,6 @@ footer {
   align-items: center;
   justify-content: space-evenly;
   font-size: 50%;
-  margin-top: 20px;
 }
 
 #mission-statement {
@@ -781,7 +780,7 @@ footer {
 }
 
 .contact-details {
-  margin-bottom: 10px;
+  margin-bottom: px;
   text-align: right;
 }
 
@@ -789,10 +788,11 @@ footer {
 #social-networks {
   background-color: rgba(0, 0, 0, 1);
   text-align: center;
-  padding: 20px 10px;
+  padding: 3px 10px 15px;
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
+  font-size: 90%;
 }
 
 #social-networks i {
