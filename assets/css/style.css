@@ -713,6 +713,24 @@ margin-bottom: 10px;
   color: #779d30;
 }
 
+/* Go Further Page */
+
+/* Go Further Hero Section */
+
+#go-further-main {
+  position: relative;
+}
+
+#go-further-hero {
+  display: flex;
+  flex-grow: 1;
+  background-image: url('../images/go-further-hero.webp');
+  background-size: cover;
+  background-position-x: 60%;
+  position: relative;
+  height: 550px;
+}
+
 /* Footer */
 footer {
   background-color: black;
