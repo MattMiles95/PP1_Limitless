@@ -733,7 +733,7 @@ margin-bottom: 10px;
 
 #go-further-headings {
   position: absolute;
-  top: 70%;
+  top: 550px;
   left: 15%;
   padding: 10px;
   border-radius: 10px 0 0 10px;
@@ -764,7 +764,7 @@ margin-bottom: 10px;
 }
 
 #go-further-signup div {
-  text-align: center;
+  text-align: justify;
   }
 
 /* Footer */
