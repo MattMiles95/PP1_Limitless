@@ -759,12 +759,8 @@ margin-bottom: 10px;
   border-radius: 0px 10px 10px 0;
   color: white;
   background-color: rgba(0, 0, 0, 0.6);
-  
-}
-
-#go-further-signup div {
   text-align: justify;
-  }
+}
 
 /* Footer */
 footer {
