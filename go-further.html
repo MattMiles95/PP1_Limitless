@@ -46,10 +46,91 @@
 
         <section id="go-further-signup">
             <div>
-                <p>Complete the form below and have one of our coaches book you in to build your bespoke Limitless programme:</p>
+                <p>Complete the form below and have one of our coaches book you in to build your bespoke Limitless
+                    programme:</p>
             </div>
-            <form id="go-further-form" method="GET" action="thank-you-page.html">
-                <h2 id="form-heading">Sign me up</h2>
+            <form id="go-further-form" method="GET" action="thankyou.html">
+                <h2 id="form-heading">A few quick questions...</h2>
+                <label for="age">I am <input name="age" id="age" type="number" required> years old.</label>
+                <br>
+                <p>I'm a:</p>
+                <input type="radio" id="sex1" name="sex" value="he">
+                <label for="sex1">He</label>
+                <input type="radio" id="sex2" name="sex" value="she">
+                <label for="sex2">She</label>
+                <input type="radio" id="sex3" name="sex" value="they">
+                <label for="sex3">They</label>
+                <input type="radio" id="sex4" name="sex" value="prefer-not-to-say" checked>
+                <label for="sex4">Prefer not to say</label>
+                <br>
+                <label for="experience">In terms of fitness experience, I would consider myself:</label>
+                <select name="experience" id="experience" required>
+                    <option value="newbie">A newbie</option>
+                    <option value="returning-from-break">Getting back into fitness after a long break (6 months or more)
+                    </option>
+                    <option value="casual">Casual - I keep active but never gave it much thought</option>
+                    <option value="intermediate">Intermediate - I've been training for a while and have a good idea of
+                        what works for me</option>
+                    <option value="athlete">Athlete - fitness is a big part of my life and I've put a lot of research
+                        into my existing programme</option>
+                </select>
+                <br>
+                <label for="frequency">I engage in at least 30 mins of active exercise:</label>
+                <select name="frequency" id="frequency" required>
+                    <option value="-1">Less than once a week</option>
+                    <option value="1-3">1 - 3 times a week</option>
+                    <option value="4-7">4 - 7 times a week</option>
+                    <option value="8+">More than 7 times a week</option>
+                </select>
+                <br>
+                <label for="working-day">The working day has me mostly:</label>
+                <select name="working-day" id="working-day" required>
+                    <option value="stood">Stood up</option>
+                    <option value="sat">Sat down</option>
+                    <option value="moving">Moving around</option>
+                    <option value="combo">Combination of all the above</option>
+                </select>
+                <br>
+                <label for="diet-statement">The following statement most closely reflects my diet:</label>
+                <select name="diet-statement" id="diet-statement" required>
+                    <option value="no-diet">I eat what I want when I want - calories be damned!</option>
+                    <option value="small-eater">Food doesn't really bother me - I usually have the smallest portion at
+                        the table</option>
+                    <option value="relaxed">I'm not strict but I eat relatively well</option>
+                    <option value="balanced">I make a concious effort to eat a healthy and balanced diet (with the
+                        occasional treat here and there)</option>
+                    <option value="strict">My body is a temple. I track macros like Liam Neeson looking for his daughter
+                    </option>
+                </select>
+                <br>
+                <label for="goal">My main goal is to:</label>
+                <select name="goal" id="goal" required>
+                    <option value="general-health">Simply lose some weight and feel better in myself</option>
+                    <option value="strong">Beat Arnie in an arm wrestle (get strong, regardless of asthetics)</option>
+                    <option value="comp">Get fit for an upcoming competition</option>
+                    <option value="military">Pass a military fitness test</option>
+                    <option value="beach-bod">Look like an extra in 300 (get that beach bod)</option>
+                    <option value="peak">Become a physical specimen that people sculpt marble statues of (take me to my
+                        peak)</option>
+                </select>
+                <br>
+                <label for="exercise">I'm interested in the following exercises (tick all that apply):</label>
+                <input type="checkbox" id="exercise1" name="exercise" value="weight-training">
+                <label for="exercise1">Weight Training</label>
+                <input type="checkbox" id="exercise2" name="exercise" value="full-body-circuit-training">
+                <label for="exercise2">Full Body Circuit Training</label>
+                <input type="checkbox" id="exercise3" name="exercise" value="running">
+                <label for="exercise3">Running</label>
+                <input type="checkbox" id="exercise4" name="exercise" value="low-impact-cardio">
+                <label for="exercise4">Low Impact Cardio (Swimming, Cycling, etc.)</label>
+                <input type="checkbox" id="exercise5" name="exercise" value="team-sports">
+                <label for="exercise5">Team Sports</label>
+                <input type="checkbox" id="exercise6" name="exercise" value="athletics">
+                <label for="exercise6">Athletics</label>
+                <input type="checkbox" id="exercise7" name="exercise" value="adventurous-activities">
+                <label for="exercise7">Adventurous Activities</label>
+                <br>
+                <button type="submit">Lets's Get to Work</button>
             </form>
         </section>
 
