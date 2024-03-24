@@ -53,7 +53,8 @@
                 <h2 id="form-heading">A few quick questions...</h2>
                 <label for="age">I am <input name="age" id="age" type="number" required> years old.</label>
                 <br>
-                <p>I'm a:</p>
+                <label for="sex">I'm a:</label>
+                <br>
                 <input type="radio" id="sex1" name="sex" value="he">
                 <label for="sex1">He</label>
                 <input type="radio" id="sex2" name="sex" value="she">
@@ -64,6 +65,7 @@
                 <label for="sex4">Prefer not to say</label>
                 <br>
                 <label for="experience">In terms of fitness experience, I would consider myself:</label>
+                <br>
                 <select name="experience" id="experience" required>
                     <option value="newbie">A newbie</option>
                     <option value="returning-from-break">Getting back into fitness after a long break (6 months or more)
@@ -76,6 +78,7 @@
                 </select>
                 <br>
                 <label for="frequency">I engage in at least 30 mins of active exercise:</label>
+                <br>
                 <select name="frequency" id="frequency" required>
                     <option value="-1">Less than once a week</option>
                     <option value="1-3">1 - 3 times a week</option>
@@ -84,14 +87,16 @@
                 </select>
                 <br>
                 <label for="working-day">The working day has me mostly:</label>
+                <br>
                 <select name="working-day" id="working-day" required>
-                    <option value="stood">Stood up</option>
                     <option value="sat">Sat down</option>
+                    <option value="stood">Stood up</option>
                     <option value="moving">Moving around</option>
                     <option value="combo">Combination of all the above</option>
                 </select>
                 <br>
                 <label for="diet-statement">The following statement most closely reflects my diet:</label>
+                <br>
                 <select name="diet-statement" id="diet-statement" required>
                     <option value="no-diet">I eat what I want when I want - calories be damned!</option>
                     <option value="small-eater">Food doesn't really bother me - I usually have the smallest portion at
@@ -104,6 +109,7 @@
                 </select>
                 <br>
                 <label for="goal">My main goal is to:</label>
+                <br>
                 <select name="goal" id="goal" required>
                     <option value="general-health">Simply lose some weight and feel better in myself</option>
                     <option value="strong">Beat Arnie in an arm wrestle (get strong, regardless of asthetics)</option>
@@ -115,18 +121,25 @@
                 </select>
                 <br>
                 <label for="exercise">I'm interested in the following exercises (tick all that apply):</label>
+                <br>
                 <input type="checkbox" id="exercise1" name="exercise" value="weight-training">
                 <label for="exercise1">Weight Training</label>
+                <br>
                 <input type="checkbox" id="exercise2" name="exercise" value="full-body-circuit-training">
                 <label for="exercise2">Full Body Circuit Training</label>
+                <br>
                 <input type="checkbox" id="exercise3" name="exercise" value="running">
                 <label for="exercise3">Running</label>
+                <br>
                 <input type="checkbox" id="exercise4" name="exercise" value="low-impact-cardio">
                 <label for="exercise4">Low Impact Cardio (Swimming, Cycling, etc.)</label>
+                <br>
                 <input type="checkbox" id="exercise5" name="exercise" value="team-sports">
                 <label for="exercise5">Team Sports</label>
+                <br>
                 <input type="checkbox" id="exercise6" name="exercise" value="athletics">
                 <label for="exercise6">Athletics</label>
+                <br>
                 <input type="checkbox" id="exercise7" name="exercise" value="adventurous-activities">
                 <label for="exercise7">Adventurous Activities</label>
                 <br>
