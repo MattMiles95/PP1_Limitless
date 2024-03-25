@@ -780,9 +780,14 @@ margin-bottom: 10px;
   color: white;
   background-color: rgba(0, 0, 0, 0.9);
   text-align: left;
-  font-size: 90%;
+  font-size: 85%;
   margin-bottom: 50px;
   box-shadow: 4px 4px 10px black;
+}
+
+#form-heading {
+  font-size: 110%;
+  margin-bottom: 10px;
 }
 
 #go-further-signup select {
@@ -792,7 +797,15 @@ margin-bottom: 10px;
   border-radius: 5px;
 }
 
-#go-further-signup input {
+#name {
+  background-color: rgba(150, 150, 150, 0.5);
+  color: white;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+#age {
   background-color: rgba(150, 150, 150, 0.5);
   color: white;
   border-radius: 10px;
@@ -804,6 +817,10 @@ margin-bottom: 10px;
   background-color: rgba(150, 150, 150, 0.5);
   color: white;
   border-radius: 5px;
+}
+
+.tandc {
+  font-size: 80%;
 }
 
 #form-button {
