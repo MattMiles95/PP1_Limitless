@@ -768,6 +768,7 @@ margin-bottom: 10px;
   font-style: italic;
 }
 
+/*Go Further Form */
 .lineheight-increase {
   line-height: 25px;
 }
@@ -781,6 +782,7 @@ margin-bottom: 10px;
   text-align: left;
   font-size: 90%;
   margin-bottom: 50px;
+  box-shadow: 4px 4px 10px black;
 }
 
 #go-further-signup select {
@@ -806,19 +808,22 @@ margin-bottom: 10px;
 
 #form-button {
   font-family: "anybody", arial, sans-serif;
-  background-color: rgba(240, 175, 1);
-  color: white;
-  padding: 5px;
+  font-size: 120%;
+  background-color: #eed4bb;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
   border-radius: 7px;
   border: none;
-  box-shadow: 2px 2px 3px black;
+  box-shadow: 1px 1px 5px rgba(150, 150, 150, 0.5);
 }
 
 #form-button:hover {
-  background-color: rgb(221, 163, 4);
-  box-shadow: 0 0 0;
+  box-shadow: none;
+  color: #eed4bb;
+  background-color: rgba(100, 100, 100, 0.5);
 }
 
+/* Walk-Ins Section */
 #walk-ins {
 position: relative;
 height: 600px;
