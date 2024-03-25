@@ -21,12 +21,21 @@ body {
   font-family: "anybody", arial, sans-serif;
 }
 
+/* Styling Classes */
 .italics {
   font-style: italic;
 }
 
+.lineheight-increase {
+  line-height: 25px;
+}
+
 .shrink-text {
   font-size: 80%;
+}
+
+.margin-push-down {
+  margin-bottom: 5px;
 }
 
 .hidden-heading {
@@ -773,10 +782,6 @@ margin-bottom: 10px;
 }
 
 /*Go Further Form */
-.lineheight-increase {
-  line-height: 25px;
-}
-
 #go-further-signup {
   width: 90%;
   padding: 20px;
