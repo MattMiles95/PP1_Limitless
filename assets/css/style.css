@@ -894,6 +894,16 @@ margin-bottom: 10px;
   margin: 20px auto 30px;
 }
 
+/* Form-Submitted Page */
+
+#form-submitted {
+  background-image: url('/assets/images/submitted-hero.webp');
+  background-size: cover;
+  width: 100%;
+  background-position: 50%;
+  height: 650px;
+}
+
 /* Footer */
 footer {
   background-color: black;
