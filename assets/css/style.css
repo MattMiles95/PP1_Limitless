@@ -901,7 +901,7 @@ margin-bottom: 10px;
 
 /* Form-Submitted Page */
 #form-submitted-background {
-  background-image: url('/assets/images/submitted-hero.webp');
+  background-image: url('../images/submitted-hero.webp');
   background-size: cover;
   background-attachment: fixed;
   height: 750px;
