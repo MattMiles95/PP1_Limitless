@@ -905,8 +905,6 @@ margin-bottom: 10px;
   background-image: url('/assets/images/submitted-hero.webp');
   background-size: cover;
   background-attachment: fixed;
-  width: 100%;
-  background-position: 50%;
   height: 750px;
   text-align: center;
   display: flex;
