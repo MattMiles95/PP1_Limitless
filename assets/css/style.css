@@ -25,6 +25,10 @@ body {
   font-style: italic;
 }
 
+.shrink-text {
+  font-size: 80%;
+}
+
 .hidden-heading {
   display: none;
 }
@@ -831,10 +835,6 @@ margin-bottom: 10px;
   border-radius: 5px;
   background-color: rgba(150, 150, 150, 0.5);
   color: white;
-}
-
-.tandc {
-  font-size: 80%;
 }
 
 #form-button {
