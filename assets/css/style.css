@@ -819,6 +819,20 @@ margin-bottom: 10px;
   border-radius: 5px;
 }
 
+#email {
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: rgba(150, 150, 150, 0.5);
+  color: white;
+}
+
+#phone-number {
+  margin-left: 25px;
+  border-radius: 5px;
+  background-color: rgba(150, 150, 150, 0.5);
+  color: white;
+}
+
 .tandc {
   font-size: 80%;
 }
@@ -827,7 +841,7 @@ margin-bottom: 10px;
   font-family: "anybody", arial, sans-serif;
   font-size: 120%;
   background-color: #eed4bb;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.6);
   padding: 10px;
   border-radius: 7px;
   border: none;
