@@ -914,23 +914,23 @@ margin-bottom: 10px;
   justify-content: flex-end;
 }
 
-#form-submitted h1, h2, h3 {
+.form-submitted-headings {
 background-color: rgba(0, 0, 0, 0.7);
 color: white;
 }
 
-#form-submitted h1 {
+#form-submitted > h1 {
   text-transform: uppercase;
   font-size: 250%;
   padding: 20px;
 }
 
-#form-submitted h2 {
+#form-submitted > h2 {
   font-size: 100%;
   padding: 0 20px 20px;
 }
 
-#form-submitted h3 {
+#form-submitted > h3 {
   font-size: 90%;
   padding: 0 20px 20px;
 }
