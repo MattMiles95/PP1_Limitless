@@ -763,23 +763,31 @@ margin-bottom: 10px;
 
 #go-further-signup {
   width: 90%;
-  padding: 10px;
+  padding: 20px;
   border-radius: 0px 10px 10px 0;
   color: white;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.9);
   text-align: justify;
   font-size: 90%;
 }
 
 #go-further-signup select {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(150, 150, 150, 0.5);
   color: white;
   width: 200px;
+  border-radius: 5px;
 }
 
 #go-further-signup input {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(150, 150, 150, 0.5);
   color: white;
+  border-radius: 10px;
+}
+
+#go-further-signup textarea {
+  background-color: rgba(150, 150, 150, 0.5);
+  color: white;
+  border-radius: 5px;
 }
 
 #form-button {
