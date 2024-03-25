@@ -900,12 +900,15 @@ margin-bottom: 10px;
 }
 
 /* Form-Submitted Page */
-
-#form-submitted {
+#form-submitted-background {
   background-image: url('/assets/images/submitted-hero.webp');
   background-size: cover;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   height: 750px;
+}
+
+#form-submitted {
+  margin-top: 150px;
   text-align: center;
   display: flex;
   flex-direction: column;
