@@ -782,6 +782,8 @@ margin-bottom: 10px;
   background-color: rgba(150, 150, 150, 0.5);
   color: white;
   border-radius: 10px;
+  width: 50px;
+  text-align: center;
 }
 
 #go-further-signup textarea {
