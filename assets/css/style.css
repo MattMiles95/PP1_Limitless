@@ -1339,6 +1339,27 @@ footer {
   top: 263px;
 }
 
+/*Form Submitted Page */
+#form-submitted-background {
+  height: 700px;
+}
+
+#form-submitted > h1 {
+  font-size: 200%;
+}
+
+#form-submitted > h2 {
+  font-size: 90%;
+}
+
+#form-submitted > h3 {
+  font-size: 80%;
+}
+
+#centr-vid {
+  height: 200px;
+}
+
 }
 
 /* Landscape phones (min-height 380px and up) */
