@@ -830,17 +830,16 @@ margin-bottom: 10px;
   background-color: rgba(150, 150, 150, 0.5);
   color: white;
   border-radius: 5px;
+  width: 90%;
 }
 
 #email {
-  margin-left: 10px;
   border-radius: 5px;
   background-color: rgba(150, 150, 150, 0.5);
   color: white;
 }
 
 #phone-number {
-  margin-left: 25px;
   border-radius: 5px;
   background-color: rgba(150, 150, 150, 0.5);
   color: white;
@@ -866,7 +865,7 @@ margin-bottom: 10px;
 /* Walk-Ins Section */
 #walk-ins {
 position: relative;
-height: 600px;
+min-height: 600px;
 max-width: 600px;
 }
 
@@ -1324,6 +1323,21 @@ footer {
   transform: none;
 }
 
+/* Go Further Page */
+#go-further-hero > h1 {
+  font-size: 200%;
+  left: 17%;
+}
+
+#go-further-hero > h2 {
+  font-size: 80%;
+  left: 10%;
+  width: 220px;
+}
+
+#map {
+  top: 263px;
+}
 
 }
 
