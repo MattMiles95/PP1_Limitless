@@ -1068,12 +1068,34 @@ footer {
   display: block;
 }
 
-#dropdown-toggle {
+#dropdown-button:checked~#dropdown-toggle-down {
+  display: none;
+}
+
+#dropdown-button:checked~#dropdown-toggle-up {
+  display: flex;
+}
+
+#dropdown-toggle-down {
   display: flex;
   justify-content: center;
   z-index: 98;
   width: 100%;
-  padding: 2px;
+  padding: 5px;
+  position: fixed;
+  top: 50px;
+  background-color: rgba(30, 30, 30, 0.7);
+  color: rgba(238,212,187, 0.6);
+  font-size: 90%;
+  word-spacing: 10px;
+}
+
+#dropdown-toggle-up {
+  display: none;
+  justify-content: center;
+  z-index: 98;
+  width: 100%;
+  padding: 5px;
   position: fixed;
   top: 50px;
   background-color: rgba(30, 30, 30, 0.7);
