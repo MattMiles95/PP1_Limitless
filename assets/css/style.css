@@ -1203,15 +1203,12 @@ footer {
   transform: translate(-35%);
 }
 
-#fitxpo-logo {
-  margin-bottom: 25px;
-}
-
 #fitxpo-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5px;
 }
 
 #fitxpo-content > img {
@@ -1233,15 +1230,12 @@ footer {
   transform: none;
 }
 
-#tough-mudder-logo {
-  margin-bottom: 25px;
-}
-
 #tough-mudder-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5px;
 }
 
 #tough-mudder-content > img {
@@ -1265,7 +1259,6 @@ footer {
 
 #beyond-limits > h2 {
   font-size: 175%;
-  margin-bottom: 15px;
 }
 
 .big-text {
@@ -1277,6 +1270,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5px;
 }
 
 #beyond-limits-content > img {
@@ -1298,13 +1292,8 @@ footer {
   transform: none;
 }
 
-#mindful-heading {
-  margin-bottom: 20px;
-}
-
 #mindful-heading > h2 {
   font-size: 175%;
-  margin-bottom: 15px;
   width: 120px;
 }
 
@@ -1313,6 +1302,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5px;
 }
 
 #mindful-earth-content > img {
