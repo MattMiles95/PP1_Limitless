@@ -97,6 +97,18 @@ nav {
   text-decoration: none;
 }
 
+#dropdown-menu {
+  display: none;
+}
+
+#dropdown-toggle {
+  display: none;
+}
+
+#page-nav-dropdown {
+  display: none;
+}
+
 #logo {
   color: white;
   font-weight: 800;
