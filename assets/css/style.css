@@ -97,14 +97,6 @@ nav {
   text-decoration: none;
 }
 
-#dropdown-menu {
-  display: none;
-}
-
-#dropdown-toggle {
-  display: none;
-}
-
 #page-nav-dropdown {
   display: none;
 }
@@ -117,7 +109,7 @@ nav {
 
 .divide {
   font-size: 40px;
-  font-weight: lighter;
+  font-weight: lighter; 
 }
 
 /* Main Content */
@@ -1055,7 +1047,48 @@ footer {
 @media screen and (max-width: 390px) {
 
 /* Homepage */
+#page-nav-menu {
+  display: none;
+}
 
+#page-nav-dropdown {
+  display: block;
+}
+
+#page-nav-dropdown:checked~#dropdown-nav {
+  
+}
+
+#dropdown-toggle {
+  
+}
+
+#dropdown-nav {
+  position: absolute;
+  top: 50px;
+  padding: 8px;
+  background-color: rgba(30, 30, 30, 0.7);
+  color: white;
+  text-transform: uppercase;
+  display: none;
+}
+
+#dropdown-menu {
+  list-style-type: none;
+  line-height: 25px;
+  text-align: center;
+}
+
+#dropdown-menu li:not(:last-child) {
+  margin-bottom: 5px;
+  border-bottom: 1px solid white;
+  width: 100%;
+}
+
+#dropdown-menu a {
+  color: inherit;
+  text-decoration: none;
+}
 
 }
 
