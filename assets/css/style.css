@@ -448,7 +448,7 @@ main {
   flex-direction: column;
   align-items: center;
   position: relative;
-  height: 370px;
+  min-height: 370px;
 }
 
 #fitxpo-logo > img {
@@ -515,7 +515,7 @@ margin-bottom: 10px;
   flex-direction: column;
   align-items: center;
   position: relative;
-  height: 370px;
+  min-height: 370px;
 }
 
 #tough-mudder-logo > img {
@@ -583,7 +583,7 @@ margin-bottom: 10px;
   flex-direction: column;
   align-items: center;
   position: relative;
-  height: 390px;
+  min-height: 390px;
 }
 
 #beyond-limits > h2 {
@@ -657,7 +657,7 @@ margin-bottom: 10px;
   flex-direction: column;
   align-items: center;
   position: relative;
-  height: 400px;
+  min-height: 400px;
   margin-top: 10px;
 }
 
@@ -1179,7 +1179,7 @@ footer {
   text-decoration: none;
 }
 
-/* Hero section */
+/* Homepage */
 #hero {
   height: 600px;
 }
@@ -1192,7 +1192,47 @@ footer {
   font-size: 160%;
 }
 
+/* Events Page */
+#events-hero > h1 {
+  font-size: 140%;
+  transform: translate(-30%);
+}
 
+#events-hero > h2 {
+  top: 80%;
+  transform: translate(-35%);
+}
+
+#fitxpo-logo {
+  margin-bottom: 25px;
+}
+
+#fitxpo-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#fitxpo-content > img {
+  position: static;
+  height: 225px;
+  transform: none;
+  margin-bottom: 15px;
+}
+
+#fitxpo-text {
+  position: static;
+  width 100%;
+  transform: none;
+  text-align: center;
+}
+
+#fitxpo-button img {
+  margin-top: 20px;
+  position: static;
+  transform: none;
+}
 
 }
 
