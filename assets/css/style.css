@@ -448,7 +448,7 @@ main {
   flex-direction: column;
   align-items: center;
   position: relative;
-  min-height: 370px;
+  min-height: 380px;
 }
 
 #fitxpo-logo > img {
@@ -459,7 +459,7 @@ main {
 
 #fitxpo-content {
   position: relative;
-  height: 380px;
+  margin: 25px 0;
   width: 100%;
   background-image: url("../images/black-background-torn.webp");
   background-size: cover;
@@ -500,7 +500,7 @@ margin-bottom: 10px;
 #fitxpo-button img {
   position: absolute;
   width: 100px;
-  top: 82%;
+  top: 81%;
   left: 65%;
   transform: translate(-15%);
 }
@@ -526,8 +526,8 @@ margin-bottom: 10px;
 
 #tough-mudder-content {
   position: relative;
-  height: 380px;
   width: 100%;
+  margin: 25px 0;
   background-image: url("../images/black-background-torn.webp");
   background-size: cover;
   display: flex;
@@ -568,7 +568,7 @@ margin-bottom: 10px;
 #tough-button img {
   position: absolute;
   width: 100px;
-  top: 89%;
+  top: 91%;
   left: 13%;
   transform: translate(-15%);
 }
@@ -583,7 +583,7 @@ margin-bottom: 10px;
   flex-direction: column;
   align-items: center;
   position: relative;
-  min-height: 390px;
+  min-height: 410px;
 }
 
 #beyond-limits > h2 {
@@ -597,7 +597,7 @@ margin-bottom: 10px;
 
 #beyond-limits-content {
   position: relative;
-  height: 380px;
+  margin: 25px 0;
   width: 100%;
   background-image: url("../images/black-background-torn.webp");
   background-size: cover;
@@ -637,7 +637,7 @@ margin-bottom: 10px;
 #beyond-limits-button img {
   position: absolute;
   width: 110px;
-  top: 82%;
+  top: 85%;
   left: 67%;
   transform: translate(-15%);
 }
@@ -683,7 +683,7 @@ position: relative;
 
 #mindful-earth-content {
   position: relative;
-  height: 380px;
+  margin: 25px 0;
   width: 100%;
   background-image: url("../images/black-background-torn.webp");
   background-size: cover;
@@ -1223,16 +1223,117 @@ footer {
 
 #fitxpo-text {
   position: static;
-  width 100%;
+  width: 100%;
   transform: none;
   text-align: center;
 }
 
 #fitxpo-button img {
-  margin-top: 20px;
   position: static;
   transform: none;
 }
+
+#tough-mudder-logo {
+  margin-bottom: 25px;
+}
+
+#tough-mudder-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#tough-mudder-content > img {
+  position: static;
+  height: 225px;
+  transform: none;
+  margin-bottom: 15px;
+}
+
+#tough-mudder-text {
+  position: static;
+  width: 100%;
+  transform: none;
+  text-align: center;
+}
+
+#tough-button img {
+  position: static;
+  transform: none;
+}
+
+#beyond-limits > h2 {
+  font-size: 175%;
+  margin-bottom: 15px;
+}
+
+.big-text {
+  font-size: 175%;
+}
+
+#beyond-limits-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#beyond-limits-content > img {
+  position: static;
+  height: 225px;
+  transform: none;
+  margin-bottom: 15px;
+}
+
+#beyond-limits-text {
+  position: static;
+  width: 100%;
+  transform: none;
+  text-align: center;
+}
+
+#beyond-limits-button img {
+  position: static;
+  transform: none;
+}
+
+#mindful-heading {
+  margin-bottom: 20px;
+}
+
+#mindful-heading > h2 {
+  font-size: 175%;
+  margin-bottom: 15px;
+  width: 120px;
+}
+
+#mindful-earth-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#mindful-earth-content > img {
+  position: static;
+  height: 225px;
+  transform: none;
+  margin-bottom: 15px;
+}
+
+#mindful-earth-text {
+  position: static;
+  width: 100%;
+  transform: none;
+  text-align: center;
+}
+
+#mindful-button img {
+  position: static;
+  transform: none;
+}
+
 
 }
 
