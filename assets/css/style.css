@@ -1038,3 +1038,15 @@ footer {
 }
 
 /* Responsivity - Media Queries */
+
+/* Small phones (max-width 390px) */
+@media screen and (max-width: 390px) {
+
+/* Homepage */
+
+
+}
+
+/* Landscape phones (min-height 380px and up) */
+
+/* Large or landscape phones (min-wdith 460px and up) */
