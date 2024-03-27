@@ -1549,5 +1549,119 @@ footer {
   font-size: 150%;
 }
 
+/* Events Page */
+#events-hero > h1 {
+  width: 250px;
+  top: 25%;
+  font-size: 250%;
+  line-height: 55px;
+}
+
+#events-hero > h2 {
+  top: 35%;
+  left: 80%;
+  width: 225px;
+  font-size: 100%;
+}
+
+#fitxpo {
+  min-height: 420px;
+}
+
+#fitxpo-content > img {
+  width: 180px;
+  top: 0;
+  left: 25%;
+}
+
+#fitxpo-text {
+  width: 350px;
+  max-height: 330px;
+  line-height: 15px;
+  left: 50%;
+  font-size: 90%;
+}
+
+#fitxpo-button img {
+  height: 80px;
+  width: 140px;
+  top: 77%;
+  left: 58%;
+}
+
+#tough-mudder {
+  min-height: 420px;
+}
+
+#tough-mudder-content > img {
+  height: 240px;
+  top: 0;
+  left: 25%;
+}
+
+#tough-mudder-text {
+  width: 350px;
+  max-height: 330px;
+  line-height: 15px;
+  left: 55%;
+  font-size: 90%;
+}
+
+#tough-button img {
+  height: 80px;
+  width: 140px;
+  top: 77%;
+  left: 63%;
+}
+
+#beyond-limits {
+  min-height: 420px;
+}
+
+#beyond-limits-content > img {
+  width: 240px;
+  top: 0;
+  left: 25%;
+}
+
+#beyond-limits-text {
+  width: 350px;
+  max-height: 330px;
+  line-height: 15px;
+  left: 55%;
+  font-size: 90%;
+}
+
+#beyond-limits-button img {
+  height: 80px;
+  width: 140px;
+  top: 77%;
+  left: 63%;
+}
+
+#mindful-earth {
+  min-height: 420px;
+}
+
+#mindful-earth-content > img {
+  height: 230px;
+  top: 0;
+  left: 25%;
+}
+
+#mindful-earth-text {
+  width: 350px;
+  max-height: 330px;
+  line-height: 15px;
+  left: 55%;
+  font-size: 90%;
+}
+
+#mindful-button img {
+  height: 80px;
+  width: 140px;
+  top: 75%;
+  left: 63%;
+}
 }
 /* Large or landscape phones (min-wdith 460px and up) */
