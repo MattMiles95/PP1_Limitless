@@ -193,6 +193,10 @@ main {
   object-fit: cover;
 }
 
+#strength-horizontal {
+  display: none;
+}
+
 #strength > h2 {
   color: slategray;
   position: absolute;
@@ -244,6 +248,10 @@ main {
   width: 100%;
 }
 
+#endurance-horizontal {
+  display: none;
+}
+
 #endurance-image > img {
   width: 100%;
   margin-bottom: 10px;
@@ -293,6 +301,10 @@ main {
   display: flex;
   flex-direction: column;
   position: relative;
+}
+
+#diet-horizontal {
+  display: none;
 }
 
 #diet-image {
@@ -350,6 +362,10 @@ main {
   display: flex;
   flex-direction: column;
   position: relative;
+}
+
+#recovery-horizontal {
+  display: none;
 }
 
 #recovery-image {
@@ -1362,6 +1378,176 @@ footer {
 
 }
 
-/* Landscape phones (min-height 380px and up) */
+/* Landscape phones (max-height 400px and smaller) */
+@media screen and (max-height: 400px) {
 
+/* Homepage */
+
+#hero {
+  height: 450px;
+}
+
+#hero > h2 {
+  top: 35%;
+  left: 18%;
+}
+
+#hero-button {
+  top: 50%;
+  left: 25%;
+}
+
+#strength-normal {
+  display: none;
+}
+
+#strength-horizontal {
+  display: block;
+}
+
+#strength-image > img {
+  height: 500px;
+  width: auto;
+}
+
+#strength > h2 {
+  left: 6%;
+  width: 25%;
+  transform: none;
+}
+
+#strength-text {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  width: 60%;
+}
+
+#strength-text > h3 {
+  font-size: 180%;
+}
+
+#strength-text > p {
+  font-size: 150%;
+}
+
+#endurance-normal {
+  display: none;
+}
+
+#endurance-horizontal {
+  display: block;
+}
+
+#endurance-image {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#endurance-image > img {
+  height: 550px;
+  width: auto;
+  margin-bottom: 0;
+}
+
+#endurance > h2 {
+  top: 9%;
+  left: 59%;
+  width: 25%;
+  transform: none;
+}
+
+#endurance-text {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 60%;
+}
+
+#endurance-text > h3 {
+  font-size: 180%;
+}
+
+#endurance-text > p {
+  font-size: 150%;
+}
+
+#diet-normal {
+  display: none;
+}
+
+#diet-horizontal {
+  display: block;
+}
+
+#diet-image > img {
+  height: 500px;
+  width: auto;
+  margin-bottom: 0;
+}
+
+#diet > h2 {
+  top: 20%;
+  left: 7%;
+  width: 25%;
+  transform: none;
+}
+
+#diet-text {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  width: 60%;
+}
+
+#diet-text > h3 {
+  font-size: 180%;
+}
+
+#diet-text > p {
+  font-size: 150%;
+}
+
+#recovery-normal {
+  display: none;
+}
+
+#recovery-horizontal {
+  display: block;
+}
+
+#recovery-image {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#recovery-image > img {
+  height: 550px;
+  width: auto;
+  margin-bottom: 0;
+}
+
+#recovery > h2 {
+  top: 5%;
+  left: 63%;
+  width: 25%;
+  transform: none;
+}
+
+#recovery-text {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 60%;
+}
+
+#recovery-text > h3 {
+  font-size: 180%;
+}
+
+#recovery-text > p {
+  font-size: 150%;
+}
+
+}
 /* Large or landscape phones (min-wdith 460px and up) */
