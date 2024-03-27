@@ -1663,5 +1663,43 @@ footer {
   top: 75%;
   left: 63%;
 }
+
+/* Go Further Page */
+#go-further-main {
+  background-size: cover;
+}
+
+#go-further-hero {
+  height: 300px;
+}
+
+#go-further-hero > h1 {
+  top: 156px;
+}
+
+#go-further-hero > h2 {
+  top: 210px;
+}
+
+#email {
+  width: 220px;
+}
+
+#phone-number {
+  width: 220px;
+}
+
+#walk-ins-text {
+  border-radius: 10px 10px 0 0;
+  min-height: 170px;
+  line-height: 20px;
+  text-align: center;
+}
+
+#map {
+  top: 170px;
+  border-radius: 0 0 10px 10px;
+}
+
 }
 /* Large or landscape phones (min-wdith 460px and up) */
