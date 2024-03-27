@@ -477,8 +477,6 @@ main {
   position: relative;
   margin: 25px 0;
   width: 100%;
-  background-image: url("../images/black-background-torn.webp");
-  background-size: cover;
   display: flex;
 }
 
@@ -1059,7 +1057,6 @@ footer {
 
 /* Very small phones (max-width 290px) */
 @media screen and (max-width: 290px) {
-
   /* Homepage */
   #nav-menu {
     font-size: 75%;
@@ -1377,7 +1374,6 @@ footer {
 
 /* Landscape phones (max-height 400px and smaller) */
 @media screen and (max-height: 400px) {
-  
   /* Homepage */
 
   #hero {
@@ -1723,15 +1719,14 @@ footer {
 }
 /* Large or landscape phones (min-wdith 576px and up) */
 @media screen and (min-width: 576px) {
-  
   /* Homepage */
-#hero > h2 {
-  font-size: 370%;
-}
+  #hero > h2 {
+    font-size: 370%;
+  }
 
-#hero-button {
-  font-size: 240%;
-}
+  #hero-button {
+    font-size: 240%;
+  }
 
   #strength > h2 {
     font-size: 300%;
@@ -1781,5 +1776,131 @@ footer {
 
   #recovery-text > p {
     font-size: 120%;
+  }
+
+  /* Events Page */
+  #events-hero {
+    height: 275px;
+  }
+
+  #events-hero > h1 {
+    top: 18%;
+    font-size: 220%;
+    width: 220px;
+    line-height: 40px;
+  }
+
+  #events-hero > h2 {
+    top: 72%;
+    left: 33%;
+    width: 360px;
+    font-size: 100%;
+    line-height: 22px;
+  }
+
+  #fitxpo {
+    margin-top: 20px;
+    min-height: 460px;
+  }
+
+  #fitxpo-logo > img  {
+    width: 180px;
+  }
+
+  #fitxpo-content > img {
+    left: 23%;
+    width: 200px;
+  }
+
+  #fitxpo-text {
+    font-size: 80%;
+    line-height: 15px;
+  }
+
+  #fitxpo-button img {
+    top: 83%;
+    height: 80px;
+    width: 150px;
+  }
+
+  #tough-mudder {
+    margin-top: 30px;
+    min-height: 480px;
+  }
+
+  #tough-mudder-logo > img  {
+    width: 190px;
+  }
+
+  #tough-mudder-content > img {
+    height: 240px;
+  }
+
+  #tough-mudder-text {
+    font-size: 80%;
+    line-height: 15px;
+  }
+
+  #tough-button img {
+    top: 87%;
+    height: 80px;
+    width: 150px;
+  }
+
+  #beyond-limits {
+    margin-top: 20px;
+    min-height: 500px;
+  }
+
+  #beyond-limits > h2  {
+    font-size: 240%;
+  }
+
+  .big-text {
+    font-size: 190%;
+  }
+
+  #beyond-limits-content > img {
+    left: 23%;
+    width: 240px;
+  }
+
+  #beyond-limits-text {
+    font-size: 80%;
+    line-height: 15px;
+  }
+
+  #beyond-limits-button img {
+    top: 81%;
+    height: 80px;
+    width: 150px;
+  }
+
+  #mindful-earth {
+    margin-top: 30px;
+    min-height: 540px;
+  }
+
+  #mindful-heading > h2 {
+    font-size: 250%;
+  }
+
+  #mindful-heading > img {
+    width: 90px;
+  }
+
+  #mindful-earth-content > img {
+    height: 250px;
+  }
+
+  #mindful-earth-text {
+    font-size: 80%;
+    line-height: 15px;
+  }
+
+  #mindful-button img {
+    top: 76%;
+    height: 80px;
+    width: 150px;
   }
 }
