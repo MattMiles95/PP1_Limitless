@@ -1938,6 +1938,172 @@ footer {
   }
 
   /* Homepage */
-  
+  #hero > h2 {
+    top: 75%;
+    left: 30%;
+    font-size: 420%;
+  }
+
+  #hero-button {
+    top: 85%;
+    left: 42%;
+    font-size: 250%;
+  }
+
+  #strength-normal {
+    display: none;
+  }
+
+  #strength-horizontal {
+    display: block;
+  }
+
+  #strength-image > img {
+    height: 500px;
+    width: auto;
+  }
+
+  #strength > h2 {
+    top: 10%;
+    left: 14%;
+    width: 25%;
+    text-align: center;
+    transform: translate(-25%);
+    font-size: 245%;
+  }
+
+  #strength-text {
+    position: absolute;
+    top: 23%;
+    left: 40%;
+    width: 60%;
+  }
+
+  #strength-text > h3 {
+    font-size: 180%;
+  }
+
+  #strength-text > p {
+    font-size: 150%;
+  }
+
+  #endurance-normal {
+    display: none;
+  }
+
+  #endurance-horizontal {
+    display: block;
+  }
+
+  #endurance-image {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  #endurance-image > img {
+    height: 550px;
+    width: auto;
+    margin-bottom: 0;
+  }
+
+  #endurance > h2 {
+    top: 8%;
+    left: 56%;
+    width: 25%;
+    transform: none;
+    font-size: 240%;
+  }
+
+  #endurance-text {
+    position: absolute;
+    top: 24%;
+    left: 0;
+    width: 56%;
+  }
+
+  #endurance-text > h3 {
+    font-size: 180%;
+  }
+
+  #endurance-text > p {
+    font-size: 150%;
+  }
+
+  #diet-normal {
+    display: none;
+  }
+
+  #diet-horizontal {
+    display: block;
+  }
+
+  #diet-image > img {
+    height: 500px;
+    width: auto;
+    margin-bottom: 0;
+  }
+
+  #diet > h2 {
+    top: 18%;
+    left: 9%;
+    width: 25%;
+    transform: none;
+  }
+
+  #diet-text {
+    position: absolute;
+    top: 22%;
+    left: 41%;
+    width: 60%;
+  }
+
+  #diet-text > h3 {
+    font-size: 180%;
+  }
+
+  #diet-text > p {
+    font-size: 150%;
+  }
+
+  #recovery-normal {
+    display: none;
+  }
+
+  #recovery-horizontal {
+    display: block;
+  }
+
+  #recovery-image {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  #recovery-image > img {
+    height: 550px;
+    width: auto;
+    margin-bottom: 0;
+  }
+
+  #recovery > h2 {
+    top: 68%;
+    left: 70%;
+    width: 25%;
+    transform: none;
+  }
+
+  #recovery-text {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 55%;
+  }
+
+  #recovery-text > h3 {
+    font-size: 180%;
+  }
+
+  #recovery-text > p {
+    font-size: 150%;
+  }
   
 }
