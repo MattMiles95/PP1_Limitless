@@ -1803,7 +1803,7 @@ footer {
     min-height: 460px;
   }
 
-  #fitxpo-logo > img  {
+  #fitxpo-logo > img {
     width: 180px;
   }
 
@@ -1828,7 +1828,7 @@ footer {
     min-height: 480px;
   }
 
-  #tough-mudder-logo > img  {
+  #tough-mudder-logo > img {
     width: 190px;
   }
 
@@ -1852,7 +1852,7 @@ footer {
     min-height: 500px;
   }
 
-  #beyond-limits > h2  {
+  #beyond-limits > h2 {
     font-size: 240%;
   }
 
@@ -1920,4 +1920,24 @@ footer {
     max-width: 295px;
     padding: 8px;
   }
+}
+
+/* Tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+  /* Header */
+  #nav-menu {
+    height: 75px;
+    font-size: 140%;
+  }
+
+  #page-nav-menu {
+    top: 74px;
+    padding: 10px;
+    font-size: 130%;
+  }
+
+  /* Homepage */
+  
+  
 }
