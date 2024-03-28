@@ -693,6 +693,7 @@ main {
   width: 80px;
   height: auto;
   margin: 0 auto 0;
+  justify-content: center;
 }
 
 #mindful-earth-content {
@@ -1372,351 +1373,6 @@ footer {
   }
 }
 
-/* Landscape phones (max-height 400px and smaller) */
-@media screen and (max-height: 400px) {
-  /* Homepage */
-
-  #hero {
-    height: 450px;
-  }
-
-  #hero > h2 {
-    top: 35%;
-    left: 18%;
-  }
-
-  #hero-button {
-    top: 50%;
-    left: 25%;
-  }
-
-  #strength-normal {
-    display: none;
-  }
-
-  #strength-horizontal {
-    display: block;
-  }
-
-  #strength-image > img {
-    height: 500px;
-    width: auto;
-  }
-
-  #strength > h2 {
-    left: 6%;
-    width: 25%;
-    transform: none;
-  }
-
-  #strength-text {
-    position: absolute;
-    top: 20%;
-    left: 40%;
-    width: 60%;
-  }
-
-  #strength-text > h3 {
-    font-size: 180%;
-  }
-
-  #strength-text > p {
-    font-size: 150%;
-  }
-
-  #endurance-normal {
-    display: none;
-  }
-
-  #endurance-horizontal {
-    display: block;
-  }
-
-  #endurance-image {
-    display: flex;
-    flex-direction: row-reverse;
-  }
-
-  #endurance-image > img {
-    height: 550px;
-    width: auto;
-    margin-bottom: 0;
-  }
-
-  #endurance > h2 {
-    top: 9%;
-    left: 59%;
-    width: 25%;
-    transform: none;
-  }
-
-  #endurance-text {
-    position: absolute;
-    top: 20%;
-    left: 0;
-    width: 60%;
-  }
-
-  #endurance-text > h3 {
-    font-size: 180%;
-  }
-
-  #endurance-text > p {
-    font-size: 150%;
-  }
-
-  #diet-normal {
-    display: none;
-  }
-
-  #diet-horizontal {
-    display: block;
-  }
-
-  #diet-image > img {
-    height: 500px;
-    width: auto;
-    margin-bottom: 0;
-  }
-
-  #diet > h2 {
-    top: 20%;
-    left: 7%;
-    width: 25%;
-    transform: none;
-  }
-
-  #diet-text {
-    position: absolute;
-    top: 20%;
-    left: 40%;
-    width: 60%;
-  }
-
-  #diet-text > h3 {
-    font-size: 180%;
-  }
-
-  #diet-text > p {
-    font-size: 150%;
-  }
-
-  #recovery-normal {
-    display: none;
-  }
-
-  #recovery-horizontal {
-    display: block;
-  }
-
-  #recovery-image {
-    display: flex;
-    flex-direction: row-reverse;
-  }
-
-  #recovery-image > img {
-    height: 550px;
-    width: auto;
-    margin-bottom: 0;
-  }
-
-  #recovery > h2 {
-    top: 5%;
-    left: 63%;
-    width: 25%;
-    transform: none;
-  }
-
-  #recovery-text {
-    position: absolute;
-    top: 20%;
-    left: 0;
-    width: 60%;
-  }
-
-  #recovery-text > h3 {
-    font-size: 180%;
-  }
-
-  #recovery-text > p {
-    font-size: 150%;
-  }
-
-  /* Events Page */
-  #events-hero > h1 {
-    width: 250px;
-    top: 25%;
-    font-size: 250%;
-    line-height: 55px;
-  }
-
-  #events-hero > h2 {
-    top: 35%;
-    left: 80%;
-    width: 225px;
-    font-size: 100%;
-  }
-
-  #fitxpo {
-    min-height: 420px;
-  }
-
-  #fitxpo-content > img {
-    width: 180px;
-    top: 0;
-    left: 25%;
-  }
-
-  #fitxpo-text {
-    width: 350px;
-    max-height: 330px;
-    line-height: 15px;
-    left: 50%;
-    font-size: 90%;
-  }
-
-  #fitxpo-button img {
-    height: 80px;
-    width: 140px;
-    top: 77%;
-    left: 58%;
-  }
-
-  #tough-mudder {
-    min-height: 420px;
-  }
-
-  #tough-mudder-content > img {
-    height: 240px;
-    top: 0;
-    left: 25%;
-  }
-
-  #tough-mudder-text {
-    width: 350px;
-    max-height: 330px;
-    line-height: 15px;
-    left: 55%;
-    font-size: 90%;
-  }
-
-  #tough-button img {
-    height: 80px;
-    width: 140px;
-    top: 77%;
-    left: 63%;
-  }
-
-  #beyond-limits {
-    min-height: 420px;
-  }
-
-  #beyond-limits-content > img {
-    width: 240px;
-    top: 0;
-    left: 25%;
-  }
-
-  #beyond-limits-text {
-    width: 350px;
-    max-height: 330px;
-    line-height: 15px;
-    left: 55%;
-    font-size: 90%;
-  }
-
-  #beyond-limits-button img {
-    height: 80px;
-    width: 140px;
-    top: 77%;
-    left: 63%;
-  }
-
-  #mindful-earth {
-    min-height: 420px;
-  }
-
-  #mindful-earth-content > img {
-    height: 230px;
-    top: 0;
-    left: 25%;
-  }
-
-  #mindful-earth-text {
-    width: 350px;
-    max-height: 330px;
-    line-height: 15px;
-    left: 55%;
-    font-size: 90%;
-  }
-
-  #mindful-button img {
-    height: 80px;
-    width: 140px;
-    top: 75%;
-    left: 63%;
-  }
-
-  /* Go Further Page */
-  #go-further-main {
-    background-size: cover;
-  }
-
-  #go-further-hero {
-    height: 300px;
-  }
-
-  #go-further-hero > h1 {
-    top: 156px;
-  }
-
-  #go-further-hero > h2 {
-    top: 210px;
-  }
-
-  #email {
-    width: 220px;
-  }
-
-  #phone-number {
-    width: 220px;
-  }
-
-  #walk-ins-text {
-    border-radius: 10px 10px 0 0;
-    min-height: 170px;
-    line-height: 20px;
-    text-align: center;
-  }
-
-  #map {
-    top: 170px;
-    border-radius: 0 0 10px 10px;
-  }
-
-  /* Form-Submitted Page */
-  #form-submitted-background {
-    background-size: cover;
-    background-position-y: 90%;
-  }
-
-  #form-submitted {
-    margin-top: 100px;
-  }
-
-  #form-submitted > h1 {
-    font-size: 170%;
-  }
-
-  #form-submitted > h2 {
-    font-size: 100%;
-  }
-
-  #centr-vid {
-    width: 60%;
-    height: auto;
-  }
-}
 /* Large or landscape phones (min-wdith 576px and up) */
 @media screen and (min-width: 576px) {
   /* Homepage */
@@ -2106,4 +1762,368 @@ footer {
     font-size: 150%;
   }
   
+}
+
+/* Landscape phones (max-height 400px and smaller) */
+@media screen and (max-height: 400px) {
+  /* Header */
+  #nav-menu {
+    height: 50px;
+    font-size: 115%;
+  }
+
+  #page-nav-menu {
+    top: 49px;
+    padding: 5px 10px; 
+  }
+  
+  /* Homepage */
+
+  #hero {
+    height: 450px;
+  }
+
+  #hero > h2 {
+    top: 35%;
+    left: 18%;
+    font-size: 330%;
+  }
+
+  #hero-button {
+    top: 50%;
+    left: 25%;
+    font-size: 200%;
+  }
+
+  #strength-normal {
+    display: none;
+  }
+
+  #strength-horizontal {
+    display: block;
+  }
+
+  #strength-image > img {
+    height: 500px;
+    width: auto;
+  }
+
+  #strength > h2 {
+    top: 17%;
+    left: 6%;
+    width: 25%;
+    transform: none;
+  }
+
+  #strength-text {
+    position: absolute;
+    top: 23%;
+    left: 40%;
+    width: 60%;
+  }
+
+  #strength-text > h3 {
+    font-size: 180%;
+  }
+
+  #strength-text > p {
+    font-size: 150%;
+  }
+
+  #endurance-normal {
+    display: none;
+  }
+
+  #endurance-horizontal {
+    display: block;
+  }
+
+  #endurance-image {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  #endurance-image > img {
+    height: 550px;
+    width: auto;
+    margin-bottom: 0;
+  }
+
+  #endurance > h2 {
+    top: 9%;
+    left: 59%;
+    width: 25%;
+    transform: none;
+  }
+
+  #endurance-text {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: 60%;
+  }
+
+  #endurance-text > h3 {
+    font-size: 180%;
+  }
+
+  #endurance-text > p {
+    font-size: 150%;
+  }
+
+  #diet-normal {
+    display: none;
+  }
+
+  #diet-horizontal {
+    display: block;
+  }
+
+  #diet-image > img {
+    height: 500px;
+    width: auto;
+    margin-bottom: 0;
+  }
+
+  #diet > h2 {
+    top: 20%;
+    left: 7%;
+    width: 25%;
+    transform: none;
+  }
+
+  #diet-text {
+    position: absolute;
+    top: 25%;
+    left: 38%;
+    width: 60%;
+  }
+
+  #diet-text > h3 {
+    font-size: 180%;
+  }
+
+  #diet-text > p {
+    font-size: 150%;
+  }
+
+  #recovery-normal {
+    display: none;
+  }
+
+  #recovery-horizontal {
+    display: block;
+  }
+
+  #recovery-image {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  #recovery-image > img {
+    height: 550px;
+    width: auto;
+    margin-bottom: 0;
+  }
+
+  #recovery > h2 {
+    top: 5%;
+    left: 70%;
+    width: 25%;
+    transform: none;
+  }
+
+  #recovery-text {
+    position: absolute;
+    top: 24%;
+    left: 0;
+    width: 57%;
+  }
+
+  #recovery-text > h3 {
+    font-size: 180%;
+  }
+
+  #recovery-text > p {
+    font-size: 150%;
+  }
+
+  /* Events Page */
+  #events-hero > h1 {
+    width: 250px;
+    top: 25%;
+    font-size: 250%;
+    line-height: 55px;
+  }
+
+  #events-hero > h2 {
+    top: 35%;
+    left: 80%;
+    width: 225px;
+    font-size: 100%;
+  }
+
+  #fitxpo {
+    min-height: 420px;
+  }
+
+  #fitxpo-content > img {
+    width: 180px;
+    top: 0;
+    left: 25%;
+  }
+
+  #fitxpo-text {
+    width: 350px;
+    max-height: 330px;
+    line-height: 15px;
+    left: 50%;
+    font-size: 90%;
+  }
+
+  #fitxpo-button img {
+    height: 80px;
+    width: 140px;
+    top: 77%;
+    left: 58%;
+  }
+
+  #tough-mudder {
+    min-height: 420px;
+  }
+
+  #tough-mudder-content > img {
+    height: 240px;
+    top: 0;
+    left: 25%;
+  }
+
+  #tough-mudder-text {
+    width: 350px;
+    max-height: 330px;
+    line-height: 15px;
+    left: 55%;
+    font-size: 90%;
+  }
+
+  #tough-button img {
+    height: 80px;
+    width: 140px;
+    top: 82%;
+    left: 63%;
+  }
+
+  #beyond-limits {
+    min-height: 420px;
+  }
+
+  #beyond-limits-content > img {
+    width: 240px;
+    top: 0;
+    left: 25%;
+  }
+
+  #beyond-limits-text {
+    width: 350px;
+    max-height: 330px;
+    line-height: 15px;
+    left: 55%;
+    font-size: 90%;
+  }
+
+  #beyond-limits-button img {
+    height: 80px;
+    width: 140px;
+    top: 80%;
+    left: 63%;
+  }
+
+  #mindful-earth {
+    min-height: 420px;
+  }
+
+  #mindful-heading > img {
+    width: 110px;
+  }
+
+  #mindful-earth-content > img {
+    height: 230px;
+    top: 0;
+    left: 25%;
+  }
+
+  #mindful-earth-text {
+    width: 350px;
+    max-height: 330px;
+    line-height: 15px;
+    left: 55%;
+    font-size: 90%;
+  }
+
+  #mindful-button img {
+    height: 80px;
+    width: 140px;
+    top: 78%;
+    left: 63%;
+  }
+
+  /* Go Further Page */
+  #go-further-main {
+    background-size: cover;
+  }
+
+  #go-further-hero {
+    height: 300px;
+  }
+
+  #go-further-hero > h1 {
+    top: 156px;
+  }
+
+  #go-further-hero > h2 {
+    top: 210px;
+  }
+
+  #email {
+    width: 220px;
+  }
+
+  #phone-number {
+    width: 220px;
+  }
+
+  #walk-ins-text {
+    border-radius: 10px 10px 0 0;
+    min-height: 170px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  #map {
+    top: 170px;
+    border-radius: 0 0 10px 10px;
+  }
+
+  /* Form-Submitted Page */
+  #form-submitted-background {
+    background-size: cover;
+    background-position-y: 90%;
+  }
+
+  #form-submitted {
+    margin-top: 100px;
+  }
+
+  #form-submitted > h1 {
+    font-size: 170%;
+  }
+
+  #form-submitted > h2 {
+    font-size: 100%;
+  }
+
+  #centr-vid {
+    width: 60%;
+    height: auto;
+  }
 }
