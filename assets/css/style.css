@@ -1583,14 +1583,14 @@ footer {
 
   /* Header */
   #nav-menu {
-    height: 75px;
+    height: 60px;
     font-size: 140%;
   }
 
   #page-nav-menu {
-    top: 74px;
-    padding: 10px;
-    font-size: 130%;
+    top: 60px;
+    padding: 7px;
+    font-size: 120%;
   }
 
   /* Homepage */
