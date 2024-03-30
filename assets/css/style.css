@@ -824,6 +824,9 @@ main {
   width: 200px;
   border-radius: 5px;
 }
+ #go-further-signup option {
+  background-color: rgba(80, 80, 80, 1);
+ }
 
 #name {
   background-color: rgba(150, 150, 150, 0.5);
