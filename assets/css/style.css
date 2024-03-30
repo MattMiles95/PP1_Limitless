@@ -1764,17 +1764,18 @@ footer {
 
 }
 
-/* Landscape phones (max-height 400px and smaller) */
-@media screen and (max-height: 400px) {
+/* Landscape phones (max-height 450px and smaller) */
+@media screen and (max-height: 450px) {
   /* Header */
   #nav-menu {
-    height: 50px;
+    height: 40px;
     font-size: 115%;
   }
 
   #page-nav-menu {
-    top: 49px;
-    padding: 5px 10px; 
+    top: 40px;
+    padding: 5px 10px;
+    font-size: 95%; 
   }
   
   /* Homepage */
@@ -1949,6 +1950,10 @@ footer {
   }
 
   /* Events Page */
+  #events-hero {
+    background-image: url('../images/events-hero-image-horizontal.webp');
+  }
+
   #events-hero > h1 {
     width: 250px;
     top: 25%;
@@ -1957,7 +1962,7 @@ footer {
   }
 
   #events-hero > h2 {
-    top: 35%;
+    top: 28%;
     left: 80%;
     width: 225px;
     font-size: 100%;
