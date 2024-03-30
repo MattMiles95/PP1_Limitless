@@ -1585,11 +1585,12 @@ footer {
   #nav-menu {
     height: 60px;
     font-size: 140%;
+    padding: 15px 0;
   }
 
   #page-nav-menu {
     top: 60px;
-    padding: 7px;
+    padding: 5px 0;
     font-size: 120%;
   }
 
@@ -1604,7 +1605,7 @@ footer {
     top: 85%;
     left: 42%;
     font-size: 250%;
-  }
+  } 
 
   #strength-normal {
     display: none;
@@ -1709,8 +1710,8 @@ footer {
   #diet-text {
     position: absolute;
     top: 22%;
-    left: 41%;
-    width: 60%;
+    left: 43%;
+    width: 55%;
   }
 
   #diet-text > h3 {
@@ -1719,6 +1720,7 @@ footer {
 
   #diet-text > p {
     font-size: 150%;
+    margin: 15px 0 20px;
   }
 
   #recovery-normal {
