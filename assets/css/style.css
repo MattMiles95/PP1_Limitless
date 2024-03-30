@@ -26,16 +26,12 @@ body {
   font-style: italic;
 }
 
-.lineheight-increase {
-  line-height: 25px;
-}
-
 .shrink-text {
   font-size: 80%;
 }
 
 .margin-push-down {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .hidden-heading {
@@ -811,6 +807,10 @@ main {
   font-size: 85%;
   margin-bottom: 50px;
   box-shadow: 4px 4px 10px black;
+}
+
+.form-line-break {
+  margin-bottom: 30px;
 }
 
 #form-heading {

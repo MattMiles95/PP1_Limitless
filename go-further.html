@@ -42,6 +42,7 @@
             <h2>Your journey to a life without limits starts here</h2>
         </section>
 
+        <!-- Form -->
         <section id="go-further-signup">
             <div>
                 <p>Complete the form below and have one of our coaches book you in to build your bespoke Limitless
@@ -55,184 +56,202 @@
                 <br>
 
                 <label for="name"><strong>My name is:</strong></label>
-                <input name="name" id="name" type="text" required>
-                <br><br>
+                <input name="name" id="name" type="text" class="form-line-break" required>
+                <br>
 
                 <label for="age"><strong>I am</strong><input name="age" id="age" type="number" min="16" required> years
                     old.
-                    <br>
-                    <span class="shrink-text italics">(You must be at least 16 years old to apply for a Limitless
-                        consultation)</span></label>
-                <br><br>
+                    <p class="shrink-text italics form-line-break">(You must be at least 16 years old to apply for a
+                        Limitless consultation)</p>
+                </label>
 
                 <p class="margin-push-down"><strong>I'm a:</strong></p>
+
                 <input type="radio" id="sex1" name="sex" value="he">
                 <label for="sex1">He</label>
-                <span class="lineheight-increase"><br></span>
+                <p class="margin-push-down"></p>
+
                 <input type="radio" id="sex2" name="sex" value="she">
                 <label for="sex2">She</label>
-                <span class="lineheight-increase"><br></span>
+                <p class="margin-push-down"></p>
+
                 <input type="radio" id="sex3" name="sex" value="they">
                 <label for="sex3">They</label>
-                <span class="lineheight-increase"><br></span>
-                <input type="radio" id="sex4" name="sex" value="prefer-not-to-say" checked>
-                <label for="sex4">Prefer not to say</label>
-                <br><br><br>
+                <p class="margin-push-down"></p>
 
-                <p class="margin-push-down"><strong>In terms of fitness experience, I would consider myself:</strong></p>
+                <input type="radio" id="sex4" name="sex" value="prefer-not-to-say" class="form-line-break" checked>
+                <label for="sex4">Prefer not to say</label>
+                <br>
+
+                <p class="margin-push-down"><strong>In terms of fitness experience, I would consider myself:</strong>
+                </p>
 
                 <input type="radio" id="exp1" name="experience" value="newbie" checked>
                 <label for="exp1">A newbie</label>
-                <span class="lineheight-increase"><br></span>
+                <p class="margin-push-down"></p>
+
                 <input type="radio" id="exp2" name="experience" value="returning">
                 <label for="exp2">Getting back into fitness after a long break (6 months or more)</label>
-                <span class="lineheight-increase"><br></span>
+                <p class="margin-push-down"></p>
+
                 <input type="radio" id="exp3" name="experience" value="casual">
                 <label for="exp3">Casual - I keep active but never gave it much thought</label>
-                <span class="lineheight-increase"><br></span>
+                <p class="margin-push-down"></p>
+
                 <input type="radio" id="exp4" name="experience" value="intermediate">
                 <label for="exp4">Intermediate - I've been training for a while and have a good idea of
                     what works for me</label>
-                <span class="lineheight-increase"><br></span>
+                <p class="margin-push-down"></p>
+
                 <input type="radio" id="exp5" name="experience" value="athlete">
                 <label for="exp5">Athlete - fitness is a big part of my life and I've put a lot of research
                     into my existing programme</label>
-                <br><br><br>
+                <p class="form-line-break"></p>
 
                 <label for="frequency"><strong>I engage in at least 30 mins of active exercise:</strong></label>
+                <p class="margin-push-down"></p>
+
+                <select name="frequency" id="frequency" class="form-line-break" required>
+                    <option value="" disabled selected style="display:none;">Select an option</option>
+                    <option value="-1">Less than once a week</option>
+                    <option value="1-3">1 - 3 times a week</option>
+                    <option value="4-7">4 - 7 times a week</option>
+                    <option value="8+">More than 7 times a week</option>
+                </select>
                 <br>
-                <span class="lineheight-increase">
-                    <select name="frequency" id="frequency" required>
-                        <option value="" disabled selected style="display:none;">Select an option</option>
-                        <option value="-1">Less than once a week</option>
-                        <option value="1-3">1 - 3 times a week</option>
-                        <option value="4-7">4 - 7 times a week</option>
-                        <option value="8+">More than 7 times a week</option>
-                    </select>
-                </span>
-                <br><br><br>
 
                 <label for="working-day"><strong>The working day has me mostly:</strong></label>
+                <p class="margin-push-down"></p>
+
+                <select name="working-day" id="working-day" class="form-line-break" required>
+                    <option value="" disabled selected style="display:none;">Select an option</option>
+                    <option value="sat">Sat down</option>
+                    <option value="stood">Stood up</option>
+                    <option value="moving">Moving around</option>
+                    <option value="combo">Combination of all the above</option>
+                </select>
                 <br>
-                <span class="lineheight-increase">
-                    <select name="working-day" id="working-day" required>
-                        <option value="" disabled selected style="display:none;">Select an option</option>
-                        <option value="sat">Sat down</option>
-                        <option value="stood">Stood up</option>
-                        <option value="moving">Moving around</option>
-                        <option value="combo">Combination of all the above</option>
-                    </select>
-                </span>
-                <br><br><br>
 
                 <p class="margin-push-down"><strong>The following statement most closely reflects my diet:</strong></p>
+
                 <input type="radio" id="diet1" name="diet" value="no-diet" checked>
                 <label for="diet1">I eat what I want when I want - calories be damned!</label>
-                <span class="lineheight-increase"><br></span>
+                <p class="margin-push-down"></p>
 
                 <input type="radio" id="diet2" name="diet" value="small-eater">
                 <label for="diet2">Food doesn't really bother me - I usually have the smallest portion
                     at the table</label>
-                <span class="lineheight-increase"><br></span>
+                <p class="margin-push-down"></p>
 
                 <input type="radio" id="diet3" name="diet" value="relaxed">
                 <label for="diet3">I'm not strict but I eat relatively well</label>
-                <span class="lineheight-increase"><br></span>
+                <p class="margin-push-down"></p>
 
                 <input type="radio" id="diet4" name="diet" value="balanced">
                 <label for="diet4">I make a concious effort to eat a healthy and balanced diet (with the
                     occasional treat here and there)</label>
-                <span class="lineheight-increase"><br></span>
+                <p class="margin-push-down"></p>
 
                 <input type="radio" id="diet5" name="diet" value="strict">
                 <label for="diet5">My body is a temple. I track macros like Liam Neeson looking for his
                     daughter</label>
-                <br><br><br>
+                <p class="form-line-break"></p>
 
                 <p class="margin-push-down"><strong>My main goal is to:</strong></p>
+
                 <input type="radio" id="goal1" name="goal" value="general-health" checked>
                 <label for="goal1">Simply lose some weight and feel better in myself</label>
-                <span class="lineheight-increase"><br></span>
+                <p class="margin-push-down"></p>
 
                 <input type="radio" id="goal2" name="goal" value="strong">
                 <label for="goal2">Beat Arnie in an arm wrestle (get strong, regardless of asthetics)</label>
-                <span class="lineheight-increase"><br></span>
+                <p class="margin-push-down"></p>
 
                 <input type="radio" id="goal3" name="goal" value="comp">
                 <label for="goal3">Get fit for an upcoming competition</label>
-                <span class="lineheight-increase"><br></span>
+                <p class="margin-push-down"></p>
 
                 <input type="radio" id="goal4" name="goal" value="military">
                 <label value="goal4">Pass a military fitness test</label>
-                <span class="lineheight-increase"><br></span>
+                <p class="margin-push-down"></p>
 
                 <input type="radio" id="goal5" name="goal" value="beach-bod">
                 <label for="goal5">Look like an extra in 300 (get that beach bod)</label>
-                <span class="lineheight-increase"><br></span>
+                <p class="margin-push-down"></p>
 
                 <input type="radio" id="goal6" name="goal" value="peak">
                 <label for="goal6">Become a physical specimen that people sculpt marble statues of (take me to
                     my peak)</label>
-                <br><br><br>
+                <p class="form-line-break"></p>
 
-                <p class="margin-push-down"><strong>I'm interested in the following exercises <span class="italics">(tick all
-                            that apply)</span>:</strong></p>
-                <span class="lineheight-increase">
-                    <input type="checkbox" id="exercise1" name="exercise" value="weight-training">
-                    <label for="exercise1">Weight Training</label>
-                    <br>
-                    <input type="checkbox" id="exercise2" name="exercise" value="full-body-circuit-training">
-                    <label for="exercise2">Full Body Circuit Training</label>
-                    <br>
-                    <input type="checkbox" id="exercise3" name="exercise" value="running">
-                    <label for="exercise3">Running</label>
-                    <br>
-                    <input type="checkbox" id="exercise4" name="exercise" value="low-impact-cardio">
-                    <label for="exercise4">Low Impact Cardio</label>
-                    <br>
-                    <input type="checkbox" id="exercise5" name="exercise" value="team-sports">
-                    <label for="exercise5">Team Sports</label>
-                    <br>
-                    <input type="checkbox" id="exercise6" name="exercise" value="athletics">
-                    <label for="exercise6">Athletics</label>
-                    <br>
-                    <input type="checkbox" id="exercise7" name="exercise" value="adventurous-activities">
-                    <label for="exercise7">Adventurous Activities</label>
+                <p class="margin-push-down"><strong>I'm interested in the following exercises <span
+                            class="italics">(tick all that apply)</span>:</strong></p>
+
+                <input type="checkbox" id="exercise1" name="exercise" value="weight-training">
+                <label for="exercise1">Weight Training</label>
+                <p class="margin-push-down"></p>
+
+                <input type="checkbox" id="exercise2" name="exercise" value="full-body-circuit-training">
+                <label for="exercise2">Full Body Circuit Training</label>
+                <p class="margin-push-down"></p>
+
+                <input type="checkbox" id="exercise3" name="exercise" value="running">
+                <label for="exercise3">Running</label>
+                <p class="margin-push-down"></p>
+
+                <input type="checkbox" id="exercise4" name="exercise" value="low-impact-cardio">
+                <label for="exercise4">Low Impact Cardio</label>
+                <p class="margin-push-down"></p>
+
+                <input type="checkbox" id="exercise5" name="exercise" value="team-sports">
+                <label for="exercise5">Team Sports</label>
+                <p class="margin-push-down"></p>
+
+                <input type="checkbox" id="exercise6" name="exercise" value="athletics">
+                <label for="exercise6">Athletics</label>
+                <p class="margin-push-down"></p>
+
+                <input type="checkbox" id="exercise7" name="exercise" value="adventurous-activities"
+                    class="form-line-break">
+                <label for="exercise7">Adventurous Activities</label>
                 </span>
-                <br><br><br>
 
-                <p for="additional-info" class="margin-push-down"><strong>Got more to say?</strong></p>
+                <p class="margin-push-down"><strong>Got more to say?</strong></p>
                 <p>A dietry restriction we should know about? Existing or
                     previous injuries? Your opinion on Brexit? Scribble away below:</p>
                 <br>
-                <textarea id="additional-info" rows="4" cols="40"></textarea>
-                <br><br><br>
+                <textarea id="additional-info" rows="4" cols="40" class="form-line-break"></textarea>
 
                 <p><strong>My contact details are:</strong></p>
                 <br>
+
                 <label for="email">Email address</label>
                 <br>
-                <input id="email" type="email" required>
-                <br><br>
+                <input id="email" type="email" class="margin-push-down" required>
+                <p class="margin-push-down"></p>
+                
                 <label for="phone-number">Contact No.</label>
                 <br>
-                <input id="phone-number" type="tel" required>
-                <br><br><br>
+                <input id="phone-number" type="tel" class="form-line-break" required>
+                <br>
 
-                <input type="radio" id="promotional-yes" name="promotional-contact" value="yes" checked>
+                <input type="radio" id="promotional-yes" name="promotional-contact" value="yes" class="margin-push-down"
+                    checked>
                 <label for="promotional-yes" class="shrink-text">I'm happy to receive promotional offers and marketing
                     via the above contact
                     details</label>
-                <br><br>
-                <input type="radio" id="promotional-no" name="promotional-contact" value="no">
+                <p class="margin-push-down"></p>
+
+                <input type="radio" id="promotional-no" name="promotional-contact" value="no" class="margin-push-down">
                 <label for="promotional-no" class="shrink-text">Keep that spam away from me</label>
-                <br><br>
+                <p class="margin-push-down"></p>
+                
                 <input type="checkbox" id="consent" required>
                 <label for="consent" class="shrink-text">By ticking this box I provide my consent to be contacted using
-                    the above details. I
-                    understand that, in accordance with the Data Protection Act 2018, Limitless will not disclose any of
+                    the above details. I understand that, in accordance with the Data Protection Act 2018, Limitless
+                    will not disclose any of
                     the details I have provided to any third-party.</label>
-                <br><br><br>
+                <p class="form-line-break"></p>
 
                 <button type="submit" id="form-button"><strong>Let's Get to Work!</strong></button>
             </form>
