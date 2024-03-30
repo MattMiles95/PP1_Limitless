@@ -1767,6 +1767,115 @@ footer {
     font-size: 150%;
   }
 
+/* Events Page */
+#events-hero {
+  background-image: url('../images/events-hero-image-horizontal.webp');
+}
+
+#events-hero > h1 {
+  width: 380px;
+  top: 28%;
+  left: 22%;
+}
+
+#events-hero > h2 {
+  width: 430px;
+  top: 76%;
+  left: 26%;
+}
+
+#fitxpo {
+  min-height: 530px;
+}
+
+#fitxpo-logo > img {
+  width: 200px;
+}
+
+#fitxpo-content > img {
+  width: 270px;
+}
+
+#fitxpo-text {
+  font-size: 110%;
+  line-height: 20px;
+}
+
+#fitxpo-button img {
+  top: 88%;
+  left: 68%;
+}
+
+#tough-mudder {
+  min-height: 530px;
+}
+
+#tough-mudder-logo > img {
+  width: 200px;
+}
+
+#tough-mudder-content > img {
+  height: 330px;
+  left: 65%;
+}
+
+#tough-mudder-text {
+  font-size: 110%;
+  line-height: 20px;
+  left: 13%;
+}
+
+#tough-button img {
+  top: 88%;
+  left: 18%;
+}
+
+#beyond-limits {
+  min-height: 580px;
+}
+
+#beyond-limits > h2 {
+  font-size: 260%;
+}
+
+#beyond-limits-content > img {
+  width: 330px;
+}
+
+#beyond-limits-text {
+  font-size: 110%;
+  line-height: 20px;
+}
+
+#beyond-limits-button img {
+  top: 85%;
+  left: 70%;
+}
+
+  #mindful-earth {
+    min-height: 590px;
+  }
+  
+  #mindful-earth > h2 {
+    font-size: 260%;
+  }
+  
+  #mindful-earth-content > img {
+    height: 330px;
+    left: 65%;
+  }
+  
+  #mindful-earth-text {
+    font-size: 110%;
+    line-height: 20px;
+    left: 13%;
+  }
+  
+  #mindful-button img {
+    top: 83%;
+    left: 18%;
+  }
+
 }
 
 /* Landscape phones (max-height 450px and smaller) */
