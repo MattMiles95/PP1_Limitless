@@ -1961,6 +1961,24 @@ footer {
   #desktop-homepage {
     display: flex;
     flex-direction: column;
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom, #eed4bb, black);
+    color: white;
+    position: relative;
+  }
+
+  #centreline-header {
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%);
+    writing-mode: vertical-lr;
+    background-image: linear-gradient(to bottom, #eed4bb, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 450%;
+    font-weight: 900;
+    text-transform: uppercase;
   }
 
   #homepage-top {
@@ -1969,23 +1987,153 @@ footer {
 
   #homepage-bottom {
     display: flex;
+    padding-bottom: 30px;
   }
 
   #strength-desktop {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-top: 20px;
   }
 
+  #strength-desktop img {
+    height: 600px;
+    width: 455px;
+    padding-left: 30px;
+  }
+
+  #strength-desktop > h3 {
+    position: absolute;
+    top: 20%;
+    left: 61%;
+    transform: translate(-90%);
+    color: rgb(129, 147, 166);
+    font-size: 240%;
+    text-transform: uppercase;
+  }
+
+  #strength-desktop h4 {
+    font-size: 140%;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  #strength-desktop-text {
+    width: 400px;
+    padding-left: 55px;
+    font-size: 110%
+  }
   
   #endurance-desktop {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    padding-top: 10px;
+  }
+
+  #endurance-desktop img {
+    height: 600px;
+    width: 450px;
+    padding-right: 30px;
+  }
+
+  #endurance-desktop > h3 {
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-80%);
+    font-size: 230%;
+    text-transform: uppercase;
+  }
+
+  #endurance-desktop h4 {
+    font-size: 140%;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  #endurance-desktop-text {
+    width: 400px;
+    padding-right: 15px;
+    font-size: 110%;
+    padding-right: 50px;
   }
 
   #diet-desktop {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  #diet-desktop img {
+    height: 600px;
+    width: 450px;
+    padding-left: 30px;
+  }
+
+  #diet-desktop > h3 {
+    position: absolute;
+    width: 120px;
+    top: 54%;
+    left: 60%;
+    transform: translate(-80%);
+    font-size: 270%;
+    text-transform: uppercase;
+  }
+
+  #diet-desktop h4 {
+    font-size: 140%;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  #diet-desktop-text {
+    width: 400px;
+    padding-left: 15px;
+    font-size: 110%;
+    padding-left: 55px;
   }
 
   #recovery-desktop {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+  }
+
+  #recovery-desktop img {
+    height: 600px;
+    width: 440px;
+    padding-right: 30px;
+  }
+
+  #recovery-desktop > h3 {
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    transform: translate(-70%);
+    text-align: center;
+    font-size: 260%;
+    text-transform: uppercase;
+  }
+
+  #recovery-desktop h4 {
+    font-size: 140%;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  #recovery-desktop-text {
+    width: 400px;
+    padding-right: 15px;
+    font-size: 110%;
+    padding-right: 50px;
   }
 
 }
