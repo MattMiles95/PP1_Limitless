@@ -520,7 +520,7 @@ main {
   position: absolute;
   width: 100px;
   top: 81%;
-  left: 65%;
+  left: 66%;
   transform: translate(-15%);
 }
 
@@ -587,7 +587,7 @@ main {
 #tough-button img {
   position: absolute;
   width: 100px;
-  top: 91%;
+  top: 82%;
   left: 13%;
   transform: translate(-15%);
 }
@@ -656,8 +656,8 @@ main {
 #beyond-limits-button img {
   position: absolute;
   width: 110px;
-  top: 85%;
-  left: 67%;
+  top: 80%;
+  left: 68%;
   transform: translate(-15%);
 }
 
@@ -746,7 +746,7 @@ main {
   position: absolute;
   width: 100px;
   top: 80%;
-  left: 13%;
+  left: 15%;
   transform: translate(-15%);
 }
 
