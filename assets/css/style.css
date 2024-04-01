@@ -2187,17 +2187,18 @@ footer {
   }
 
   #desktop-homepage {
+    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 20px;
   }
 
   #homepage-top {
-    flex: 1 1;
+    flex-grow: 1;
   }
 
   #homepage-bottom {
-    flex: 1 1;
+    flex-grow: 1;
   }
 
   #strength-desktop {
@@ -2206,7 +2207,7 @@ footer {
 
   #strength-desktop img {
     height: 505px;
-    width: 350px;
+    width: 330px;
     padding: 0 0 10px;
   }
 
@@ -2233,7 +2234,7 @@ footer {
 
   #endurance-desktop img {
     height: 500px;
-    width: 350px;
+    width: 330px;
     padding: 5px 0 0;
   }
 
@@ -2259,15 +2260,8 @@ footer {
 
   #diet-desktop img {
     height: 510px;
-    width: 350px;
+    width: 330px;
     padding: 15px 0 0;
-  }
-
-  #diet-desktop > h3 {
-    top: 45%;
-    left: 75%;
-    transform: translate(-60%);
-    color: #cbccfe;
   }
 
   #diet-desktop h4 {
@@ -2294,7 +2288,7 @@ footer {
 
   #recovery-desktop img {
     height: 500px;
-    width: 350px;
+    width: 330px;
     padding: 0;
   }
 
