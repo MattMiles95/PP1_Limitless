@@ -2210,16 +2210,6 @@ footer {
     padding: 0 0 10px;
   }
 
-  #strength-desktop > h3 {
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%);
-    color: rgb(95, 112, 131);
-    font-size: 240%;
-    text-transform: uppercase;
-  }
-
   #strength-desktop h4 {
     text-align: center;
     font-size: 140%;
@@ -2247,13 +2237,6 @@ footer {
     padding: 5px 0 0;
   }
 
-  #endurance-desktop > h3 {
-    top: 48%;
-    left: 32%;
-    transform: translate(-35%);
-    color: #9af3ff;
-  }
-
   #endurance-desktop h4 {
     text-align: center;
     font-size: 140%;
@@ -2267,7 +2250,7 @@ footer {
     font-size: 120%;
     font-weight: 600;
     padding: 0;
-    color: #73e2f0;;
+    color: #ceffc0;
   }
 
   #diet-desktop {
@@ -2284,7 +2267,7 @@ footer {
     top: 45%;
     left: 75%;
     transform: translate(-60%);
-    color: #d0aaff;
+    color: #cbccfe;
   }
 
   #diet-desktop h4 {
@@ -2315,13 +2298,6 @@ footer {
     padding: 0;
   }
 
-  #recovery-desktop > h3 {
-    top: 78%;
-    left: 50%;
-    transform: translate(-60%);
-    color: #e3f8bd;
-  }
-
   #recovery-desktop h4 {
     text-align: center;
     font-size: 140%;
@@ -2334,7 +2310,7 @@ footer {
     text-align: center;
     font-size: 120%;
     padding: 30px 0 10px 0;
-    color: #f4ffdf;
+    color: #b3ca56;
   }
 }
 
