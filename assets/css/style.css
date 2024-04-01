@@ -1618,7 +1618,7 @@ footer {
     font-size: 250%;
   }
 
-  #strength-normal {
+  #strength-portrait {
     display: none;
   }
 
@@ -1655,7 +1655,7 @@ footer {
     font-size: 150%;
   }
 
-  #endurance-normal {
+  #endurance-portrait {
     display: none;
   }
 
@@ -1697,7 +1697,7 @@ footer {
     font-size: 150%;
   }
 
-  #diet-normal {
+  #diet-portrait {
     display: none;
   }
 
@@ -1734,7 +1734,7 @@ footer {
     margin: 15px 0 20px;
   }
 
-  #recovery-normal {
+  #recovery-portrait {
     display: none;
   }
 
@@ -1973,7 +1973,7 @@ footer {
     transform: translate(-50%);
     writing-mode: vertical-lr;
     background-image: linear-gradient(to bottom, #eed4bb, white);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 450%;
     font-weight: 900;
@@ -2370,7 +2370,7 @@ footer {
     font-size: 200%;
   }
 
-  #strength-normal {
+  #strength-portrait {
     display: none;
   }
 
@@ -2405,7 +2405,7 @@ footer {
     font-size: 150%;
   }
 
-  #endurance-normal {
+  #endurance-portrait {
     display: none;
   }
 
@@ -2446,7 +2446,7 @@ footer {
     font-size: 150%;
   }
 
-  #diet-normal {
+  #diet-portrait {
     display: none;
   }
 
@@ -2482,7 +2482,7 @@ footer {
     font-size: 150%;
   }
 
-  #recovery-normal {
+  #recovery-portrait {
     display: none;
   }
 
