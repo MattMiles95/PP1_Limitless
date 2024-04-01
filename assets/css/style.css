@@ -200,18 +200,6 @@ main {
   display: none;
 }
 
-#strength > h2 {
-  color: slategray;
-  position: absolute;
-  text-wrap: wrap;
-  text-align: center;
-  top: 15%;
-  left: 50%;
-  transform: translate(-50%);
-  text-transform: uppercase;
-  font-size: 250%;
-}
-
 #strength-text {
   display: flex;
   flex-direction: column;
@@ -259,18 +247,6 @@ main {
   width: 100%;
   margin-bottom: 10px;
   object-fit: cover;
-}
-
-#endurance > h2 {
-  color: white;
-  position: absolute;
-  text-wrap: wrap;
-  text-align: center;
-  top: 17%;
-  left: 35%;
-  transform: translate(-50%);
-  text-transform: uppercase;
-  font-size: 250%;
 }
 
 #endurance-text {
@@ -321,19 +297,6 @@ main {
   object-fit: cover;
 }
 
-#diet > h2 {
-  color: white;
-  position: absolute;
-  text-wrap: wrap;
-  text-align: center;
-  top: 49%;
-  left: 70%;
-  transform: translate(-50%);
-  text-transform: uppercase;
-  font-size: 250%;
-  font-weight: 700;
-}
-
 #diet-text {
   display: flex;
   flex-direction: column;
@@ -380,19 +343,6 @@ main {
   width: 100%;
   margin-bottom: 10px;
   object-fit: cover;
-}
-
-#recovery > h2 {
-  color: white;
-  position: absolute;
-  text-wrap: wrap;
-  text-align: center;
-  top: 52%;
-  left: 60%;
-  transform: translate(-50%);
-  text-transform: uppercase;
-  font-size: 250%;
-  font-weight: 700;
 }
 
 #recovery-text {
@@ -1088,28 +1038,6 @@ footer {
     font-size: 135%;
     top: 80%;
   }
-
-  #strength > h2 {
-    font-size: 200%;
-    top: 10%;
-  }
-
-  #endurance > h2 {
-    font-size: 200%;
-    top: 12%;
-    transform: translate(-40%);
-  }
-
-  #diet > h2 {
-    font-size: 200%;
-    top: 41%;
-    left: 75%;
-  }
-
-  #recovery > h2 {
-    font-size: 200%;
-    top: 42%;
-  }
 }
 
 /* Medium phones (max-width 380px) */
@@ -1396,20 +1324,12 @@ footer {
     font-size: 240%;
   }
 
-  #strength > h2 {
-    font-size: 300%;
-  }
-
   #strength-text > h3 {
     font-size: 140%;
   }
 
   #strength-text > p {
     font-size: 120%;
-  }
-
-  #endurance > h2 {
-    font-size: 300%;
   }
 
   #endurance-text > h3 {
@@ -1420,22 +1340,12 @@ footer {
     font-size: 120%;
   }
 
-  #diet > h2 {
-    top: 60%;
-    font-size: 300%;
-  }
-
   #diet-text > h3 {
     font-size: 150%;
   }
 
   #diet-text > p {
     font-size: 120%;
-  }
-
-  #recovery > h2 {
-    top: 62%;
-    font-size: 300%;
   }
 
   #recovery-text > h3 {
@@ -1631,15 +1541,6 @@ footer {
     width: auto;
   }
 
-  #strength > h2 {
-    top: 10%;
-    left: 14%;
-    width: 25%;
-    text-align: center;
-    transform: translate(-25%);
-    font-size: 245%;
-  }
-
   #strength-text {
     position: absolute;
     top: 23%;
@@ -1674,14 +1575,6 @@ footer {
     margin-bottom: 0;
   }
 
-  #endurance > h2 {
-    top: 8%;
-    left: 56%;
-    width: 25%;
-    transform: none;
-    font-size: 240%;
-  }
-
   #endurance-text {
     position: absolute;
     top: 24%;
@@ -1709,13 +1602,6 @@ footer {
     height: 500px;
     width: auto;
     margin-bottom: 0;
-  }
-
-  #diet > h2 {
-    top: 18%;
-    left: 9%;
-    width: 25%;
-    transform: none;
   }
 
   #diet-text {
@@ -1751,13 +1637,6 @@ footer {
     height: 550px;
     width: auto;
     margin-bottom: 0;
-  }
-
-  #recovery > h2 {
-    top: 68%;
-    left: 70%;
-    width: 25%;
-    transform: none;
   }
 
   #recovery-text {
@@ -2003,16 +1882,6 @@ footer {
     padding-left: 30px;
   }
 
-  #strength-desktop > h3 {
-    position: absolute;
-    top: 20%;
-    left: 61%;
-    transform: translate(-90%);
-    color: rgb(129, 147, 166);
-    font-size: 240%;
-    text-transform: uppercase;
-  }
-
   #strength-desktop h4 {
     font-size: 140%;
     text-transform: uppercase;
@@ -2038,15 +1907,6 @@ footer {
     height: 600px;
     width: 450px;
     padding-right: 30px;
-  }
-
-  #endurance-desktop > h3 {
-    position: absolute;
-    top: 17%;
-    left: 50%;
-    transform: translate(-80%);
-    font-size: 230%;
-    text-transform: uppercase;
   }
 
   #endurance-desktop h4 {
@@ -2075,16 +1935,6 @@ footer {
     padding-left: 30px;
   }
 
-  #diet-desktop > h3 {
-    position: absolute;
-    width: 120px;
-    top: 54%;
-    left: 60%;
-    transform: translate(-80%);
-    font-size: 270%;
-    text-transform: uppercase;
-  }
-
   #diet-desktop h4 {
     font-size: 140%;
     text-transform: uppercase;
@@ -2110,16 +1960,6 @@ footer {
     height: 600px;
     width: 440px;
     padding-right: 30px;
-  }
-
-  #recovery-desktop > h3 {
-    position: absolute;
-    top: 55%;
-    left: 45%;
-    transform: translate(-70%);
-    text-align: center;
-    font-size: 260%;
-    text-transform: uppercase;
   }
 
   #recovery-desktop h4 {
