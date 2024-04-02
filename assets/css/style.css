@@ -415,7 +415,12 @@ main {
 
 /* FitXPO 2024 */
 #fitxpo {
-  background-image: linear-gradient(to bottom, black, rgba(209,35,41, 0.3), black);
+  background-image: linear-gradient(
+    to bottom,
+    black,
+    rgba(209, 35, 41, 0.3),
+    black
+  );
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -482,7 +487,12 @@ main {
 
 /* Tough Mudder */
 #tough-mudder {
-  background-image: linear-gradient(to bottom, black, rgba(254,94,0, 0.3), black);
+  background-image: linear-gradient(
+    to bottom,
+    black,
+    rgba(254, 94, 0, 0.3),
+    black
+  );
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -552,7 +562,12 @@ main {
 
 /* Beyond the Limits 2024 */
 #beyond-limits {
-  background-image: linear-gradient(to bottom, black, rgba(240,175,1, 0.3), black);
+  background-image: linear-gradient(
+    to bottom,
+    black,
+    rgba(240, 175, 1, 0.3),
+    black
+  );
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -628,7 +643,12 @@ main {
 
 /* Mindful Earth */
 #mindful-earth {
-  background-image: linear-gradient(to bottom, black, rgba(119,157,48, 0.3), black);
+  background-image: linear-gradient(
+    to bottom,
+    black,
+    rgba(119, 157, 48, 0.3),
+    black
+  );
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -725,15 +745,15 @@ main {
 }
 
 #go-further-hero {
-  height: 700px;
+  height: 470px;
 }
 
 #go-further-hero > h1 {
   position: absolute;
-  top: 550px;
-  left: 26%;
+  top: 320px;
+  right: 0;
   padding: 15px;
-  border-radius: 10px;
+  border-radius: 10px 0 0 10px;
   box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.5);
   background-color: rgba(0, 0, 0, 0.7);
   color: white;
@@ -747,11 +767,11 @@ main {
 
 #go-further-hero > h2 {
   position: absolute;
-  top: 605px;
-  left: 22%;
+  top: 375px;
+  right: 0;
   max-width: 265px;
   padding: 8px 6px;
-  border-radius: 10px;
+  border-radius: 10px 0 0 10px;
   box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.5);
   background-color: #eed4bb;
   color: rgba(0, 0, 0, 0.6);
@@ -877,6 +897,8 @@ main {
 
 #map {
   height: 250px;
+  background-color: rgba(0, 0, 0, 0.9);
+
   width: 95%;
   border-radius: 10px;
   margin: 10px auto;
@@ -1281,12 +1303,11 @@ footer {
   /* Go Further Page */
   #go-further-hero > h1 {
     font-size: 200%;
-    left: 17%;
   }
 
   #go-further-hero > h2 {
     font-size: 80%;
-    left: 10%;
+    top: ;
     width: 220px;
   }
 
@@ -1486,10 +1507,6 @@ footer {
   }
 
   /* Go Further Page */
-  #go-further-hero {
-    height: 640px;
-  }
-
   #go-further-hero > h1 {
     top: 415px;
     font-size: 280%;
@@ -1767,7 +1784,23 @@ footer {
   }
 
   /* Go Further Page */
-  
+  #go-further-hero > h1 {
+    top: 320px;
+    right: 10%;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 350%;
+  }
+
+  #go-further-hero > h2 {
+    top: 385px;
+    right: 21%;
+    border-radius: 10px;
+  }
+
+  #go-further-signup {
+    width: 55%;
+  }
 }
 
 /* Laptops and larger devices (min-width 1024px and larger) */
@@ -2092,25 +2125,37 @@ footer {
   }
 
   /* Go Further Page */
+  #go-further-hero {
+    height: 400px;
+  }
+
   #go-further-hero > h1 {
+    top: 220px;
+    left: 5%;
+    right: auto;
     background-color: rgba(0, 0, 0, 0.8);
     font-size: 370%;
     padding: 25px;
   }
 
   #go-further-hero > h2 {
-    top: 485px;
-    left: 24%;
+    top: 293px;
+    left: 12%;
     font-size: 130%;
     max-width: 340px;
   }
 
+  #go-further-signup {
+    width: 40%;
+  }
+
   #walk-ins {
-    max-width: 100%;    
+    min-height: 100px;
   }
 
   #walk-ins-text {
-    left: 40%;
+    top: -2052%;
+    left: 50%;
   }
 }
 
@@ -2406,6 +2451,32 @@ footer {
     height: 100px;
     width: 200px;
   }
+
+  /* Go Further Page */
+  #go-further-main {
+    background-size: cover;
+  }
+
+  #go-further-hero {
+    height: 400px;
+  }
+
+  #go-further-hero > h1 {
+    top: 200px;
+    left: 5%;
+  }
+
+  #go-further-hero > h2 {
+    top: 275px;
+    left: 10%;
+  }
+
+  #go-further-signup {
+    width: 35%;
+  }
+
+  #walk-ins-text {
+    top: -1930%;
 }
 
 /* Landscape phones (max-height 450px and smaller) */
