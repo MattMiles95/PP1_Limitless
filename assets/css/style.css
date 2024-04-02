@@ -2043,7 +2043,7 @@ footer {
   }
 
   #beyond-limits-content img {
-    height: 380px;
+    width: 380px;
   }
 
   #beyond-limits-text {
@@ -2216,6 +2216,166 @@ footer {
     font-size: 120%;
     padding: 30px 0 10px 0;
     color: #b3ca56;
+  }
+
+  /* Events Page */
+  #events-hero > h1 {
+    top: 23%;
+    left: 20%;
+    width: 480px;
+    font-size: 300%;
+    line-height: 49px;
+  }
+
+  #events-hero > h2 {
+    top: 72%;
+    left: 24%;
+    width: 570px;
+    font-size: 130%;
+  }
+
+  #fitxpo {
+    min-height: 660px;
+  }
+
+  #fitxpo-logo img {
+    width: 300px;
+    margin: 25px auto 15px;
+  }
+
+  #fitxpo-content img {
+    width: 360px;
+    left: 15%;
+  }
+
+  #fitxpo-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 880px;
+    margin-top: 60px;
+    left: 45%;
+    font-size: 130%;
+    line-height: 26px;
+    text-align: center;
+  }
+
+  #fitxpo-text > li {
+    margin: 5px 15px;
+  }
+
+  #fitxpo-button img {
+    top: 70%;
+    left: 37%;
+    height: 100px;
+    width: 200px;
+  }
+
+  #tough-mudder {
+    min-height: 740px;
+  }
+
+  #tough-mudder-logo img {
+    width: 300px;
+    margin: 25px auto 15px;
+  }
+
+  #tough-mudder-content img {
+    height: 450px;
+    left: 73%;
+  }
+
+  #tough-mudder-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 740px;
+    margin-top: 60px;
+    left: 13%;
+    font-size: 130%;
+    line-height: 26px;
+    text-align: center;
+  }
+
+  #tough-mudder-text > li {
+    margin: 5px 0 0 0;
+  }
+
+  #tough-button img {
+    top: 69%;
+    left: 45%;
+    height: 100px;
+    width: 200px;
+  }
+
+  #beyond-limits {
+    min-height: 690px;
+  }
+
+  #beyond-limits > h2 {
+    font-size: 360%;
+  }
+
+  #beyond-limits-content img {
+    width: 450px;
+    left: 17%;
+  }
+
+  #beyond-limits-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    margin-top: 60px;
+    left: 50%;
+    font-size: 130%;
+    line-height: 26px;
+    text-align: center;
+  }
+
+  #beyond-limits-text > li {
+    margin: 5px 10px;
+    min-width: 160px;
+  }
+
+  #beyond-limits-button img {
+    top: 69%;
+    left: 44%;
+    height: 100px;
+    width: 200px;
+  }
+
+  #mindful-earth {
+    min-height: 740px;
+  }
+
+  #mindful-earth-content img {
+    height: 450px;
+    left: 73%;
+  }
+
+  #mindful-earth-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 740px;
+    margin-top: 60px;
+    left: 13%;
+    font-size: 130%;
+    line-height: 26px;
+    text-align: center;
+  }
+
+  #mindful-earth-text > li {
+    margin: 5px 5px;
+    min-width: 160px;
+  }
+
+  #mindful-button img {
+    top: 60%;
+    left: 45%;
+    height: 100px;
+    width: 200px;
   }
 }
 
