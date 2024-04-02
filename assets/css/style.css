@@ -1307,7 +1307,6 @@ footer {
 
   #go-further-hero > h2 {
     font-size: 80%;
-    top: ;
     width: 220px;
   }
 
@@ -2477,6 +2476,7 @@ footer {
 
   #walk-ins-text {
     top: -1930%;
+}
 }
 
 /* Landscape phones (max-height 450px and smaller) */
