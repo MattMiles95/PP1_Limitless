@@ -850,7 +850,7 @@ main {
 #walk-ins {
   position: relative;
   min-height: 600px;
-  max-width: 600px;
+  width: 100%;
 }
 
 #walk-ins-text {
@@ -858,9 +858,9 @@ main {
   width: auto;
   top: 20px;
   left: 20%;
-  padding: 10px;
+  padding: 20px;
   min-height: 227px;
-  border-radius: 10px 0 0 0;
+  border-radius: 10px 0 0 10px;
   box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.5);
   background-color: rgba(0, 0, 0, 0.9);
   color: white;
@@ -876,14 +876,10 @@ main {
 }
 
 #map {
-  position: absolute;
-  top: 227px;
-  left: 20%;
   height: 250px;
-  width: 80%;
-  border-radius: 0 0 0 10px;
-  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.5);
-  margin: 20px auto 30px;
+  width: 95%;
+  border-radius: 10px;
+  margin: 10px auto;
 }
 
 /* Form-Submitted Page */
@@ -1769,6 +1765,9 @@ footer {
     top: 87%;
     left: 18%;
   }
+
+  /* Go Further Page */
+  
 }
 
 /* Laptops and larger devices (min-width 1024px and larger) */
@@ -2090,6 +2089,28 @@ footer {
 
   #mindful-button img {
     top: 83%;
+  }
+
+  /* Go Further Page */
+  #go-further-hero > h1 {
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 370%;
+    padding: 25px;
+  }
+
+  #go-further-hero > h2 {
+    top: 485px;
+    left: 24%;
+    font-size: 130%;
+    max-width: 340px;
+  }
+
+  #walk-ins {
+    max-width: 100%;    
+  }
+
+  #walk-ins-text {
+    left: 40%;
   }
 }
 
