@@ -1729,7 +1729,7 @@ footer {
   }
 
   #beyond-limits > h2 {
-    font-size: 260%;
+    font-size: 280%;
   }
 
   #beyond-limits-content > img {
@@ -1742,7 +1742,7 @@ footer {
   }
 
   #beyond-limits-button img {
-    top: 85%;
+    top: 87%;
     left: 70%;
   }
 
@@ -1750,8 +1750,8 @@ footer {
     min-height: 590px;
   }
 
-  #mindful-earth > h2 {
-    font-size: 260%;
+  #mindful-heading > h2 {
+    font-size: 280%;
   }
 
   #mindful-earth-content > img {
@@ -1766,7 +1766,7 @@ footer {
   }
 
   #mindful-button img {
-    top: 83%;
+    top: 87%;
     left: 18%;
   }
 }
@@ -2075,6 +2075,7 @@ footer {
 
   #mindful-heading img {
     width: 120px;
+    margin-top: 15px;
   }
 
   #mindful-earth-content img {
@@ -2088,7 +2089,7 @@ footer {
   }
 
   #mindful-button img {
-    top: 80%;
+    top: 83%;
   }
 }
 
@@ -2379,7 +2380,7 @@ footer {
   }
 
   #mindful-button img {
-    top: 60%;
+    top: 62%;
     left: 45%;
     height: 100px;
     width: 200px;
