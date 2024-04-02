@@ -950,6 +950,7 @@ main {
 #centr-vid {
   aspect-ratio: 16 / 9;
   width: 90%;
+  height: auto;
   border-radius: 10px;
 }
 
@@ -1800,6 +1801,11 @@ footer {
   #go-further-signup {
     width: 55%;
   }
+
+  /* Form Submitted Page */
+  #centr-vid {
+    width: 70%;
+  }
 }
 
 /* Laptops and larger devices (min-width 1024px and larger) */
@@ -2124,9 +2130,9 @@ footer {
   }
 
   /* Go Further Page */
-#go-further-main {
-  background-size: cover;
-}
+  #go-further-main {
+    background-size: cover;
+  }
 
   #go-further-hero {
     height: 400px;
@@ -2157,8 +2163,13 @@ footer {
   }
 
   #walk-ins-text {
-    top: -2052%;
+    top: -1900%;
     left: 50%;
+  }
+
+  /* Form Submitted Page */
+  #centr-vid {
+    width: 60%;
   }
 }
 
@@ -2475,8 +2486,13 @@ footer {
   }
 
   #walk-ins-text {
-    top: -1930%;
-}
+    top: -1730%;
+  }
+
+  /* Form Submitted Page */
+  #centr-vid {
+    width: 40%;
+  }
 }
 
 /* Landscape phones (max-height 450px and smaller) */
@@ -2494,7 +2510,6 @@ footer {
   }
 
   /* Homepage */
-
   #hero {
     height: 450px;
   }
