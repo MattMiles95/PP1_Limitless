@@ -511,7 +511,6 @@ main {
   position: relative;
   width: 100%;
   margin: 25px 0;
-  background-image: url("../images/black-background-torn.webp");
   background-size: cover;
   display: flex;
 }
@@ -589,7 +588,6 @@ main {
   position: relative;
   margin: 25px 0;
   width: 100%;
-  background-image: url("../images/black-background-torn.webp");
   background-size: cover;
   display: flex;
 }
@@ -682,7 +680,6 @@ main {
   position: relative;
   margin: 25px 0;
   width: 100%;
-  background-image: url("../images/black-background-torn.webp");
   background-size: cover;
   display: flex;
 }
