@@ -374,9 +374,8 @@ main {
 
 /* Events Hero Section */
 #events-main {
-  background-image: linear-gradient(to bottom, #b31800, black);
-  background-size: cover;
-  background-attachment: fixed;
+  display: flex;
+  background-color: black;
 }
 
 #events-hero {
@@ -387,6 +386,7 @@ main {
   background-size: cover;
   background-position: 53%;
   padding: 0 10% 0 10%;
+  flex-grow: 1;
 }
 
 #events-hero > h1 {
@@ -415,11 +415,13 @@ main {
 
 /* FitXPO 2024 */
 #fitxpo {
+  background-image: linear-gradient(to bottom, black, rgba(209,35,41, 0.3), black);
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
   min-height: 380px;
+  margin-bottom: 10px;
 }
 
 #fitxpo-logo > img {
@@ -480,11 +482,13 @@ main {
 
 /* Tough Mudder */
 #tough-mudder {
+  background-image: linear-gradient(to bottom, black, rgba(254,94,0, 0.3), black);
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
   min-height: 370px;
+  margin-bottom: 10px;
 }
 
 #tough-mudder-logo > img {
@@ -548,11 +552,13 @@ main {
 
 /* Beyond the Limits 2024 */
 #beyond-limits {
+  background-image: linear-gradient(to bottom, black, rgba(240,175,1, 0.3), black);
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
   min-height: 410px;
+  margin-bottom: 10px;
 }
 
 #beyond-limits > h2 {
@@ -622,6 +628,7 @@ main {
 
 /* Mindful Earth */
 #mindful-earth {
+  background-image: linear-gradient(to bottom, black, rgba(119,157,48, 0.3), black);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -636,7 +643,7 @@ main {
 }
 
 #mindful-heading > h2 {
-  margin-top: 20px;
+  margin-top: 40px;
   color: white;
   font-size: 200%;
   font-weight: 400;
@@ -647,7 +654,7 @@ main {
 #mindful-heading > img {
   width: 80px;
   height: auto;
-  margin: 0 auto 0;
+  margin: 20px auto 0;
   justify-content: center;
 }
 
@@ -695,7 +702,7 @@ main {
 #mindful-button img {
   position: absolute;
   width: 100px;
-  top: 80%;
+  top: 85%;
   left: 15%;
   transform: translate(-15%);
 }
@@ -2265,7 +2272,7 @@ footer {
   }
 
   #fitxpo-button img {
-    top: 70%;
+    top: 68%;
     left: 37%;
     height: 100px;
     width: 200px;
