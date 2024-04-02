@@ -2124,6 +2124,10 @@ footer {
   }
 
   /* Go Further Page */
+#go-further-main {
+  background-size: cover;
+}
+
   #go-further-hero {
     height: 400px;
   }
@@ -2452,10 +2456,6 @@ footer {
   }
 
   /* Go Further Page */
-  #go-further-main {
-    background-size: cover;
-  }
-
   #go-further-hero {
     height: 400px;
   }
