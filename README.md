@@ -93,3 +93,40 @@ The main colour scheme for Limitless is black, white and beige – these are the
 
 * Mindful Earth:
 ![Mindful Earth Palette](/assets/readme-images/mindful-palette.webp)
+
+### Typography
+'Anybody' from Google Fonts is the primary font used throughout the website, with Arial as the fallback font in case the user's browser does not support Anybody. Sans-serif is the websafe choice, in case neither Anybody nor Arial load, as both of these fonts are san-serif styles. I chose Anybody as it is a minimalistic, strong looking font that I feel is suited to the Limitless brand. 
+
+Other fonts used in the website are Impact (with 'Haettenschweiler', Arial Narrow Bold and sans-serif as fallbacks) for the Beyond the Limits heading, and ABeeZee (with Arial Narrow Bold and sans-serif as fallbacks) for the Mindful Earth heading. I chose these fonts as they are used by their respective brands, and so provide a sense of continuity between my website and the websites linked in these sections. 
+
+### Images 
+All images used were designed to inspire the user to want to engage with the activity they represent. They depict either athletes at peak fitness (intended to inspire users to want to be like these athletes) and/or teamwork between two or more people (intended to evoke in users a desire to belong to the Limitless community).
+
+### Wireframes
+
+Wireframes were used in the very initial design of the website; however, in practice, as this was my first project, the design of the website was very dynamic in it's evolution. As such, the wireframes didn't greatly inform the final design. 
+
+<details><summary>A sample of my initial wireframes:</summary><p align="left"><img src="https://res.cloudinary.com/drnx69cce/image/upload/v1712187930/wireframe-sample_vyqrv4.webp"></p></details>
+
+### Accessibility
+To ensure equal opporunity to engage amongst all users, accessibility was at the core of the design of my website:
+ 
+* Alt text, aria-labels and semantic html are used throughout the site to aid screen readers. 
+* All colour schemes used utilise contrast between background and foreground to ensure ease of readability. All background/foreground contrasts were tested using [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) and recieved passing grades across the board.
+
+<details><summary>Screenshot of Contrast Checker to demonstrate test:</summary><p align="left"><img src="https://res.cloudinary.com/drnx69cce/image/upload/v1712186684/contrast-checker-demo_h8oode.webp"></p></details>
+
+### Responsiveness
+Using the concept of 'mobile first design', I initially designed the website for use on smartphones and then built up it's responsiveness on larger devices from there. I utilised the principles of mobile first design for several reasons: 
+
+* Improved User Experience - as of 2024, the majority of users access the Internet via smartphones. As such, the bulk of users will be accessing my website on a mobile device. By prioritising the mobile user experience, I can provide a faster, smoother and more engaging experience for the widest possible audience.
+
+* Better SEO - many search engines prioritise mobile-friendly websites. Therefore, a website designed for mobile phones will have better SEO and hopefully receive more traffic.
+
+* Faster Load Times - designing a website based on the restrictions of a mobile phone (smaller screen, slower Internet, etc.) prevents mobile users from having a bad experience and ensures a smooth, fast load time across all devices. 
+
+All pages are designed to be responsive across an array of devices, regardless of dimensions or size. Several media queries ensure that the website runs smoothly on small, medium and large smartphones (portrait and landscape), tablets, laptops and large desktop screens. Rather than use a 'one size fits all' approach, which can lead to poor user experiences on non-prioritised devices, I have designed each media query separately so to ensure that users have a smooth and engaging experience no matter what device they use to access the website. 
+
+<details><summary>Screenshots of Strength Section across different sized devices:</summary><p align="left"><img src="https://res.cloudinary.com/drnx69cce/image/upload/v1712186581/strength-samples_jf5f56.webp"></p></details>
+
+### Features
