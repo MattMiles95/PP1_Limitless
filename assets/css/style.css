@@ -162,7 +162,7 @@ main {
   font-weight: 750;
   font-style: italic;
   text-decoration: none;
-  text-wrap: nowrap;
+  white-space: nowrap;
   background-color: #eed4bb;
   padding: 5px 10px;
   border: none;
@@ -208,7 +208,6 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-wrap: wrap;
   word-spacing: 2px;
 }
 
@@ -257,7 +256,6 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-wrap: wrap;
   word-spacing: 2px;
 }
 
@@ -305,7 +303,6 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-wrap: wrap;
   word-spacing: 2px;
 }
 
@@ -353,7 +350,6 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-wrap: wrap;
   word-spacing: 2px;
   color: #263734;
   margin-bottom: 20px;

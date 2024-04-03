@@ -6,14 +6,13 @@ Also on the website, you can find upcoming fitness events with links to find out
 
 [View Limitless live project here.](https://mattmiles95.github.io/PP1_Limitless/)
 
-![Am I Responsive](/assets/readme-images/responsive-demo.webp)
+![Responsive Demo](/assets/readme-images/responsive-demo.webp)
 ---
 ## Table of Contents
 
-### [User Experience (UX)](#user-experience-ux)
+### [User Experience (UX)](#user-experience-ux-1)
 * [User Stories](#user-stories)
-* [Community Goals](#community-goals)
-### [Design](#design)
+### [Design](#design-1)
 * [Colours](#colours)
 * [Typography](#typography)
 * [Images](#images)
@@ -45,3 +44,52 @@ Also on the website, you can find upcoming fitness events with links to find out
 * [Local Clone](#local-clone)
 ### [Credits](#credits)
 ### [Acknowledgements](#acknowledgements)
+
+
+## User Experience (UX)
+Limitless is a website for people looking to get fit and improve their health through bespoke programmes tailored to their individual needs. It’s targeted at a spectrum of users, from novice trainers that have never lifted a weight, to established athletes looking to squeeze that last 1% out of their training. 
+
+### User Stories
+
+#### Initial User Goals – First Impressions
+-	Understand the purpose of the website 
+-	Easily navigate the website’s features  
+-	Establish intrigue as to what Limitless has to offer
+
+#### Established User Goals – Once They’ve Stayed 
+-	Understand what Limitless has to offer
+-	Feel inspired to start / continue their fitness journey with Limitless
+-	Establish interest in advertised fitness events
+-	Establish interest in partner brands
+
+## Design
+
+### Colours
+The main colour scheme for Limitless is black, white and beige – these are the base colours used in the website’s logo, headings and nav features. However, different sections have their own independent colour schemes to create a sense of segregation between the different sections and maintain  user’s attention. For each section, I have selected a colour scheme based on the colours featured in the primary image to give a sense of cohesion, with high contrast in text for accessibility.
+
+* Limitless:
+![Limitless Palette](/assets/readme-images/limitless-palette.webp)
+
+* Strength:
+![Strength Palette](/assets/readme-images/strength-palette.webp)
+
+* Endurance: 
+![Endurance Palette](/assets/readme-images/endurance-palette.webp)
+
+* Diet:
+![Diet Palette](/assets/readme-images/diet-palette.webp)
+
+* Recovery:
+![Recovery Palette](/assets/readme-images/recovery-palette.webp)
+
+* FitXPO:
+![FitXPO Palette](/assets/readme-images/fitxpo-palette.webp)
+
+* Tough Mudder:
+![Tough Mudder Palette](/assets/readme-images/tough-palette.webp)
+
+* Beyond the Limits 24:
+![Beyond the Limits 24 Palette](/assets/readme-images/beyond-palette.webp)
+
+* Mindful Earth:
+![Mindful Earth Palette](/assets/readme-images/mindful-palette.webp)
