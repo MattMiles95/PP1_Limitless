@@ -274,9 +274,9 @@ main {
 
 /* Diet Section */
 #diet {
-  background-color: #856ea2;
+  background-color: #F6D6FF;
   width: 100%;
-  color: #ffeffc;
+  color: #74009E;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -2284,7 +2284,7 @@ footer {
     text-align: center;
     font-size: 120%;
     padding: 10px 0 0 0;
-    color: #cdb3ec;
+    color: #d2c9ff;
   }
 
   #recovery-desktop {
