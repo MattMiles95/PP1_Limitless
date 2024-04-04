@@ -280,9 +280,9 @@ main {
 
 /* Diet Section */
 #diet {
-  background-color: #F6D6FF;
+  background-color: #f6d6ff;
   width: 100%;
-  color: #74009E;
+  color: #74009e;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -735,7 +735,6 @@ main {
 /* Go Further Page */
 
 /* Go Further Hero Section */
-
 #go-further-main {
   display: flex;
   flex-grow: 1;
@@ -1050,6 +1049,7 @@ footer {
 
 /* Small phones (max-width 345px) */
 @media screen and (max-width: 345px) {
+
   /* Homepage */
   #nav-menu {
     font-size: 95%;
@@ -1072,6 +1072,7 @@ footer {
 
 /* Medium phones (max-width 380px) */
 @media screen and (max-width: 380px) {
+
   /* Homepage */
 
   /* Page Nav Menu */
@@ -1162,7 +1163,7 @@ footer {
     text-decoration: none;
   }
 
-  /* Homepage */
+  /* Hero Section */
   #hero {
     height: 600px;
   }
@@ -1345,6 +1346,7 @@ footer {
 
 /* Large or landscape phones (min-wdith 576px and up) */
 @media screen and (min-width: 576px) {
+
   /* Homepage */
   #hero > h2 {
     font-size: 370%;
@@ -1804,6 +1806,7 @@ footer {
 
 /* Laptops and larger devices (min-width 1024px and larger) */
 @media screen and (min-width: 1024px) {
+
   /* Homepage */
 
   /* Hidden Elements */
@@ -2187,11 +2190,12 @@ footer {
 
   #contact {
     font-size: 60%;
-    }
+  }
 }
 
 /* Large laptops and desktops (min-width 1340px and larger) */
 @media screen and (min-width: 1340px) {
+
   /* Header */
   #desktop-page-nav-menu {
     display: none;
@@ -2514,6 +2518,7 @@ footer {
 
 /* Landscape phones (max-height 450px and smaller) */
 @media screen and (max-height: 450px) {
+
   /* Header */
   #nav-menu {
     font-size: 115%;
