@@ -40,6 +40,7 @@ Also on the website, you can find upcoming fitness events, each with their own d
 * [Validation Results](#validation-results)
 * [Lighthouse Reports](#lighthouse-reports)
 * [Manual Testing](#manual-testing)
+* [Bugs & Fixes](#bugs-and-fixes)
 ### [Local Development & Deployment](#local-development--deployment-1)
 * [Local Development](#local-development)
 * [Deployment](#deployment)
@@ -352,6 +353,23 @@ The following features were manually tested on each of the above browsers and de
 #### Additional Testing
 * The wesbite was also extensively audited using Chrome DevTools throughout the development process.
 * Once in its final stages, friends and family were invited to use the website and provide feedback on their personal user experience.
+
+### Bugs and Fixes
+During the development of my website, I encountered several bugs that required fixes. I have documented these below:
+
+* Syntax errors - when carrying out W3C validator tests, several syntax errors were identified across the website files (stray curly brackets, typos, etc.). These were all fixed simply by correcting the mistakes.
+
+* Homepage elements overflowing on screens 1340px wide and smaller - this was caused by the four homepage sections being wider than the viewport for this screensize. I fixed this by adding a flex-shrink property to all of the sections, causing them to evenly shrink to fit inside the viewport. 
+
+* Homepage elements overflowing on screens 768px wide and larger - this was caused by the nav-menu div having too much padding, causing the element to overflow beyond the main content. This in turn caused side scroll, as well as all elements with a width of 100% to appear as though overflowing as well. I fixed this by identifying the div with the excess padding and reducing it to 0.
+
+* Footer disappearing on homepage - this was one of the earliest bugs I encountered in my project, and was caused by the CSS rule 'background-attachment: fixed' on the hero image causing the other sections of the page to behave unexpectedly. I fixed this bug by removing the problematic CSS rule.
+
+* Form Submitted background image not appearing on deployed site - this bug was caused by me using an absolute path for the image. I fixed this by changing to a relative path.
+
+* Slow website performance - this was caused by having images that were too large in both scale and file size. I fixed this by optimising the images used (reducing scale and quality to reduce file size).
+
+* Media queries cascading issue - my media query for horizontal phones (determined by a maximum screen height of 450px) was being overruled by later media queries based on screen width. I fixed this by placing the media query at the very bottom of the stylesheet.
 
 ## Local Development & Deployment
 
