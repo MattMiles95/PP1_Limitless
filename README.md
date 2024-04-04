@@ -1,8 +1,10 @@
 # Limitless
 
-Limitless is a fitness brand made up of trainers, coaches and nutritionists who work with clients to provide bespoke training programmes. Each programme can be broken down into 4 sections – Strength, Endurance, Nutrition and Recovery. Anyone who is interested in building their own Limitless programme can submit an application form for a free initial consultation, or attend the Limitless Gym at the address provided on the website. 
+Limitless is a fitness brand made up of trainers, coaches and nutritionists who work with clients to provide bespoke training programmes. Limitless is a brand aimed at anyone who embraces the importance of fitness in their life - whether they're just beginning their fitness journey, or they've been exercising for years. Each programme can be broken down into 4 sections – Strength, Endurance, Nutrition and Recovery. These four themes provide the building blocks for the website and feature as the focus of the homepage. 
 
-Also on the website, you can find upcoming fitness events with links to find out more about each event, as well as links to all of Limitless’ social media accounts. Limitless has partnered with other major brands in the fitness industry, and their logos are displayed in the footer of each page. Each logo also acts as a link to the respective company’s website. 
+Browsing the Limitless website, you'll notice a clear and repeated call to action: <em>"Go Further"</em>. This is ultimately the purpose of the website - to inspire users to want to "go further" with their fitness, and to use Limitless to achieve this. Anyone interested in building their own Limitless programme can submit an application form for a free consultation on the "Go Further" page, or attend the Limitless Gym at the address provided. 
+
+Also on the website, you can find upcoming fitness events, each with their own dedicated section. External links are provided to allow the user to find out more information about each event. The purpose of the Events section is to establish a sense of community that the user will want to become a part of. 
 
 [View Limitless live project here.](https://mattmiles95.github.io/PP1_Limitless/)
 
@@ -29,16 +31,17 @@ Also on the website, you can find upcoming fitness events with links to find out
 * [Dropdown Menu](#dropdown-menu)
 * [Links](#links)
 * [Buttons](#buttons)
+* [Scroll Animation](#scroll-animation)
 ### [Future Features](#future-features-1)
-### [Technologies Used](#technologies-used)
+### [Technologies Used](#technologies-used-1)
 * [Languages](#languages)
-### [Frameworks, Libraries & Programs Used](#frameworks#)
-*[Frameworks & Tools](#frameworks-tools)
+### [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used-1)
+* [Frameworks & Tools](#frameworks-tools)
 ### [Testing](#testing)
 * [Validation Results](#validation-results)
 * [Manual Testing](#manual-testing)
 * [Lighthouse Reports](#lighthouse-reports)
-### [Deployment and local development](#deployment)
+### [Deployment and Local Development](#deployment)
 * [GitHub Pages](#github-pages)
 * [Forking the GitHub Repository](#forking-the-github-repository)
 * [Local Clone](#local-clone)
@@ -207,6 +210,9 @@ To ensure consistency in each pages' aesthetics, the defeault text decorations f
 
 Throughout the website I have used several buttons. Each of these buttons work in the same way as the links described above. I designed each of the 'Read more' buttons using Photopea. When a user hovers their cursor over the 'Go Further' button on the Homepage, the colours of the button invert and the box shadow disappears, to provide the user with satisfying visual feedback.
 
+### Scroll Animation
+The scroll animation for the website has been designed to provide a smooth user experience. This is most evident when using an internal page link for navigation (i.e., clicking the 'recovery' page nav option on the homepage). Rather than the default animation of instantly jumping the user to that section, which can provide a jolty user experience, the page will automatically scroll the user to the desired section.
+
 ## Future Features
 * Add a 'Shop' page, where users can purchase Limitless merchandise.
 * Add a 'Members' page, where users can view different membership options and the related benefits and costs of each.
@@ -238,7 +244,7 @@ Throughout the website I have used several buttons. Each of these buttons work i
 * [Chrome Eye Dropper](https://chromewebstore.google.com/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka)
     - For sampling colours.
 * [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
-    - For testing foreground/background contrasts
+    - For testing foreground/background contrasts.
 
 ## Testing
 To ensure there were no errors in my code, each file was separately validated using direct input in the [W3C Markup Validator](https://validator.w3.org/#validate_by_input) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
@@ -305,3 +311,100 @@ I used several tactics to improve each pages' lighthouse scores, including:
 
 #### Future Improvements
 * Optimise embedded YouTube videos for increased speed and performance on mobile devices.
+
+### Manual Testing
+To ensure a positive user experience and test that the website runs smoothly across an array of browsers and devices, the website was manually tested on the following:
+
+#### Browsers
+* Google Chrome
+* Microsoft Edge
+* Mozilla Firefox
+* Safari
+
+#### Devices
+* Samsung Galaxy S23 Ultra (412 x 750) 
+* iPhone 13 (390 x 661)
+* Apple iPad 8th Gen (580 x 548)
+* 15.6" Portable Monitor (1280 x 551)
+* 15.6" Windows Laptop (1536 x 695)
+
+(The above viewports were calculated using [whatismyviewport.com](https://whatismyviewport.com/) on each devices' maximised browser window.)
+
+The following features were manually tested on each of the above browsers and devices: 
+
+* General performance
+* Responsiveness
+* Google Fonts
+* All links (internal and external)
+* Form submission
+* Scroll animations
+* Hover animations
+* Dropdown menu/toggle (where accessible)
+* Google Maps (embedded)
+* YouTube video (embedded)
+
+#### Additional Testing
+* The wesbite was also extensively audited using Chrome DevTools throughout the development process.
+* Once in its final stages, friends and family were invited to use the website and provide feedback on their personal user experience.
+
+## Local Development & Deployment
+
+### Local Development
+The website was developed using Visual Studio Code, with all local files stored in my Dropbox to provide a cloud-based backup. All live code is stored in my GitHub repository - PP1_Limitless (via routine 'git push' commands). The following VS Code extensions were used in the development of the website:
+* Git
+* GitHub Codespaces
+* GitHub Repositories
+* Live Server
+
+### Deployment 
+This site was deployed via GitHub Pages, using the following steps:
+1. Open the GitHub repository - [PP1_Limitless](https://github.com/MattMiles95/PP1_Limitless).
+2. Select the Settings tab.
+3. Open the source-selection dropdown menu and select "Main Branch"
+
+Upon completion of the above steps, refresh the repository homepage and scroll to the Deployments section on the right-hand side of the page. Click on "github-pages" and follow the link to the live project.
+
+### Forking the GitHub Repository
+Forking the repository creates a copy of the original, allowing us to view and change the repository without affecting the original. This can be done by following the below steps:
+
+1. Open the GitHub repository - [PP1_Limitless](https://github.com/MattMiles95/PP1_Limitless).
+2. Select the "Fork" button in the top-right section of the page.
+
+A copy of the repository should now be in your own GitHub account.
+
+### Local Clone
+Cloning the repository allows you to copy the files into your own IDE for local development. This can be done by following the below steps:
+
+1. Open the GitHub repository - [PP1_Limitless](https://github.com/MattMiles95/PP1_Limitless).
+2. Navigate the 'Code' dropdown menu and select whether you wish to clone the code using HTTPS, SSH or GitHub CLI.
+3. Open the a Git Bash terminal in your chosen IDE and navigate your working directory to the location you wish to clone the project.
+4. Use the command 'git clone' followed by the link you copied from the repository.
+
+## Credits
+
+### Affiliations
+"Limitless" is a fictional fitness brand created by me solely for the purpose of this project. Any partnerships or affiliations alluded to within the website are entirely fictional and in no way represent the views of any of the real world brands featured therein.
+
+### Copy (Written Material)
+* All copy used in the website was written by me.
+
+* The snippets of information pertaining to each event were adapted from copy found on each of the events' own websites.
+
+### Media
+* The majority of images used were obtained via [Unsplash](https://unsplash.com/).
+
+* Logos and images pertaining to real world brands and events (Adidas, MyProtein, Centr, FitXPO, Tough Mudder, Beyond the Limits and Mindful Earth) were all obtained from each brands' respective websites. All rights to these images and logos belong to their respective brands.
+
+* The YouTube video embedded in the Form Submitted page was obtained from the [Centr YouTube channel](https://www.youtube.com/watch?v=Hz93uPOekBQ).
+
+* The address used in the embedded Google Maps feature is for illustration purposes only and was randomly selected.
+
+### Online Resources
+* [Photopea](https://www.photopea.com/) was used extensively throughout this project to edit the appearance of the images used, create new images and to convert image files to .webp format for optimisation.
+
+* [Google Fonts](https://fonts.google.com/) was used to import the primary font for the website, "Anybody", as well as the font for the Mindul Earth heading, "ABeeZee".
+
+* [Font Awesome](https://fontawesome.com/) was used for the social media icons and the arrows used in the dropdown toggle button.
+
+### Code
+* The dropdown toggle for the page navigation menu on the homepage was created by adapting the burger icon code from the Love Running project. 
