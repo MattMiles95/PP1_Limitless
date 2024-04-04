@@ -18,7 +18,7 @@ Also on the website, you can find upcoming fitness events, each with their own d
 * [Colours](#colours)
 * [Typography](#typography)
 * [Images](#images)
-* [Accessiblity](#accessiblity)
+* [Accessibility](#accessibility)
 * [Responsiveness](#responsiveness)
 ### [Features](#features-1)
 * [Homepage](#homepage)
@@ -36,17 +36,21 @@ Also on the website, you can find upcoming fitness events, each with their own d
 ### [Technologies Used](#technologies-used-1)
 * [Languages](#languages)
 ### [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used-1)
-* [Frameworks & Tools](#frameworks-tools)
-### [Testing](#testing)
+### [Testing](#testing-1)
 * [Validation Results](#validation-results)
-* [Manual Testing](#manual-testing)
 * [Lighthouse Reports](#lighthouse-reports)
-### [Deployment and Local Development](#deployment)
-* [GitHub Pages](#github-pages)
+* [Manual Testing](#manual-testing)
+### [Local Development & Deployment](#local-development--deployment-1)
+* [Local Development](#local-development)
+* [Deployment](#deployment)
 * [Forking the GitHub Repository](#forking-the-github-repository)
 * [Local Clone](#local-clone)
-### [Credits](#credits)
-### [Acknowledgements](#acknowledgements)
+### [Credits](#credits-1)
+* [Affiliations](#affiliations)
+* [Copy (Written Material)](#copy-written-material)
+* [Media](#media)
+* [Online Resources](#online-resources)
+* [Code](#code)
 
 
 ## User Experience (UX)
@@ -219,6 +223,8 @@ The scroll animation for the website has been designed to provide a smooth user 
 * Add more events, and ensure that this section is regularly updated to ensure no past events are advertised.
 
 ## Technologies Used
+
+### Languages 
 * [HTML 5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS 3](https://en.wikipedia.org/wiki/CSS#CSS_3)
 
