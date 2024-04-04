@@ -23,6 +23,7 @@ Also on the website, you can find upcoming fitness events with links to find out
 * [Events Page](#events-page)
 * [Go Further Page](#go-further-page)
 * [Form Submitted Page](#form-submitted-page)
+* [Favicon](#favicon)
 * [Footer](#footer)
 * [Navigation Bar](#navigation-bar)
 * [Dropdown Menu](#dropdown-menu)
@@ -158,6 +159,11 @@ As well as this form, a Google Maps iframe has been embedded in the page to give
 
 Upon submitting their form, users are directed to a page congratulating them on taking the first step on their Limitless journey. Users are assured that a coach will contact them shortly, and offered a sneak preview at one of the workout videos offered by Limitless. This is presented in an embedded YouTube video. From here, users can watch the video or navigate their way back to the other pages.
 
+### Favicon
+![Favicon Screenshot](/assets/readme-images/features-favicon.webp)
+
+The favicon is the small image that appears to the left of the webpage's title on the user's browser tab. It is important for brand identity, as well as conforming with webpage conventions and providing users with a positive experience. My favicon is a bold white 'L' against a black background. The 'L' represents 'Limitless', and the black and white colouring is inkeeping with the brand's colour scheme. It is best to choose a simple design for a favicon, as they are typcially very small and so fine details would likely be illegible and look messy. I created my favicon using Photopea, a photo editing software.
+
 ### Footer
 ![Footer Screenshot](/assets/readme-images/features-footer.webp)
 
@@ -190,4 +196,103 @@ To ensure consistency in each pages' aesthetics, the defeault text decorations f
 ### Buttons
 ![Buttons Screenshot](/assets/readme-images/features-buttons.webp)
 
-Throughout the website I have used several buttons. Each of these buttons work in the same way as the links described above. I designed each of the 'Read more' buttons using Photopea, an online photo editor. When a user hovers their cursor over the 'Go Further' button on the Homepage, the colours of the button invert and the box shadow disappears, to provide the user with satisfying visual feedback.
+Throughout the website I have used several buttons. Each of these buttons work in the same way as the links described above. I designed each of the 'Read more' buttons using Photopea. When a user hovers their cursor over the 'Go Further' button on the Homepage, the colours of the button invert and the box shadow disappears, to provide the user with satisfying visual feedback.
+
+## Future Features
+* Add a 'Shop' page, where users can purchase Limitless merchandise.
+* Add a 'Members' page, where users can view different membership options and the related benefits and costs of each.
+* Add more events, and ensure that this section is regularly updated to ensure no past events are advertised.
+
+## Technologies Used
+* [HTML 5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS 3](https://en.wikipedia.org/wiki/CSS#CSS_3)
+
+## Frameworks, Libraries & Programs Used
+* [Visual Studio Code](https://code.visualstudio.com/)
+    - IDE.
+* [Git](https://git-scm.com/)
+    - Version control system.
+* [GitHub](https://github.com/)
+    - Online storing of repository and deployment of website.
+* [Google Fonts](https://fonts.google.com/)
+    - Import primary font for website.
+* [Font Awesome](https://fontawesome.com/)
+    - Import several icons.
+* [Balsamiq](https://balsamiq.com/)
+    - Wireframing tool.
+* [Unsplash](https://unsplash.com/)
+    - Library of stock images.
+* [Photopea](https://www.photopea.com/)
+    - Photo editing software.
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools)
+    - For testing and auditing code.
+* [Chrome Eye Dropper](https://chromewebstore.google.com/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka)
+    - For sampling colours.
+* [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
+    - For testing foreground/background contrasts
+
+## Testing
+To ensure there were no errors in my code, each file was separately validated using direct input in the [W3C Markup Validator](https://validator.w3.org/#validate_by_input) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
+
+### Validation Results
+
+#### HTML
+<details><summary>index.html</summary>
+
+![Homepage Validator Result](/assets/readme-images/html-validator-pass.webp)
+</details>
+
+<details><summary>events.html</summary>
+
+![Events Page Validator Result](/assets/readme-images/html-validator-pass.webp)
+</details>
+
+<details><summary>go-further.html</summary>
+
+![Go Further Page Validator Result](/assets/readme-images/html-validator-pass.webp)
+</details>
+
+<details><summary>form-submitted.html</summary>
+
+![Form Submitted Page Validator Result](/assets/readme-images/html-validator-pass.webp)
+</details>
+
+#### CSS
+<details><summary>style.css</summary>
+
+![CSS Validator Result](/assets/readme-images/css-validator-pass.webp)
+</details>
+
+### Lighthouse Testing
+I used the Google Lighthouse tool to test the performance, accessibility, SEO and best practices of each of webpages, generating reports for both mobile and desktop performance on each. 
+
+#### Lighthouse Results
+
+<details><summary>index.html</summary>
+
+![Homepage Lighthouse Result](/assets/readme-images/lighthouse-index.webp)
+</details>
+
+<details><summary>events.html</summary>
+
+![Events Page Lighthouse Result](/assets/readme-images/lighthouse-events.webp)
+</details>
+
+<details><summary>go-further.html</summary>
+
+![Go Further Lighthouse Result](/assets/readme-images/lighthouse-go-further.webp)
+</details>
+
+<details><summary>form-submitted.html</summary>
+
+![Form Submitted Lighthouse Result](/assets/readme-images/lighthouse-form-submitted.webp)
+</details>
+
+#### Improvements Made
+I used several tactics to improve each pages' lighthouse scores, including: 
+* Increasing the contrast of foreground and background colours for greater accessibility.
+* Converting .png files to .webp.
+* Optimising images to reduce file sizes.
+
+#### Future Improvements
+* Optimise embedded YouTube videos for increased speed and performance on mobile devices.
