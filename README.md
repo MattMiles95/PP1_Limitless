@@ -68,30 +68,39 @@ Limitless is a website for people looking to get fit and improve their health th
 The main colour scheme for Limitless is black, white and beige – these are the base colours used in the website’s logo, headings and nav features. However, different sections have their own independent colour schemes to create a sense of segregation between the different sections and maintain  user’s attention. For each section, I have selected a colour scheme based on the colours featured in the primary image to give a sense of cohesion, with high contrast in text for accessibility.
 
 * Limitless:
+
 ![Limitless Palette](/assets/readme-images/limitless-palette.webp)
 
 * Strength:
+
 ![Strength Palette](/assets/readme-images/strength-palette.webp)
 
 * Endurance: 
+
 ![Endurance Palette](/assets/readme-images/endurance-palette.webp)
 
 * Nutrition:
+
 ![Nutrition Palette](/assets/readme-images/nutrition-palette.webp)
 
 * Recovery:
+
 ![Recovery Palette](/assets/readme-images/recovery-palette.webp)
 
 * FitXPO:
+
 ![FitXPO Palette](/assets/readme-images/fitxpo-palette.webp)
 
 * Tough Mudder:
+
 ![Tough Mudder Palette](/assets/readme-images/tough-palette.webp)
 
 * Beyond the Limits 24:
+
 ![Beyond the Limits 24 Palette](/assets/readme-images/beyond-palette.webp)
 
 * Mindful Earth:
+
 ![Mindful Earth Palette](/assets/readme-images/mindful-palette.webp)
 
 ### Typography
