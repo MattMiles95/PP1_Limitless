@@ -1,6 +1,6 @@
 # Limitless
 
-Limitless is a fitness brand made up of trainers, coaches and nutritionists who work with clients to provide bespoke training programmes. Each programme can be broken down into 4 sections – Strength, Endurance, Diet and Recovery. Anyone who is interested in building their own Limitless programme can submit an application form for a free initial consultation, or attend the Limitless Gym at the address provided on the website. 
+Limitless is a fitness brand made up of trainers, coaches and nutritionists who work with clients to provide bespoke training programmes. Each programme can be broken down into 4 sections – Strength, Endurance, Nutrition and Recovery. Anyone who is interested in building their own Limitless programme can submit an application form for a free initial consultation, or attend the Limitless Gym at the address provided on the website. 
 
 Also on the website, you can find upcoming fitness events with links to find out more about each event, as well as links to all of Limitless’ social media accounts. Limitless has partnered with other major brands in the fitness industry, and their logos are displayed in the footer of each page. Each logo also acts as a link to the respective company’s website. 
 
@@ -25,7 +25,6 @@ Also on the website, you can find upcoming fitness events with links to find out
 * [Form Submitted Page](#form-submitted-page)
 * [Footer](#footer)
 * [Navigation Bar](#navigation-bar)
-* [Page Navigation Bar](#page-navigation-bar)
 * [Dropdown Menu](#dropdown-menu)
 * [Links](#links)
 * [Buttons](#buttons)
@@ -76,8 +75,8 @@ The main colour scheme for Limitless is black, white and beige – these are the
 * Endurance: 
 ![Endurance Palette](/assets/readme-images/endurance-palette.webp)
 
-* Diet:
-![Diet Palette](/assets/readme-images/diet-palette.webp)
+* Nutrition:
+![Nutrition Palette](/assets/readme-images/nutrition-palette.webp)
 
 * Recovery:
 ![Recovery Palette](/assets/readme-images/recovery-palette.webp)
@@ -136,7 +135,7 @@ All pages are designed to be responsive across an array of devices, regardless o
 
 The purpose of the homepage is to grab the user's attention, convey the general purpose of the website (the user should identify that Limitless is a fitness brand), and build the user's intrigue as to what Limitless has to offer. This is done with a visually engaging hero image of an athlete using battle ropes, with the heading and sub-heading displayed prominently around the focal point of the hero image. There is very little clutter at the top of the homepage, as this is the first thing the user sees. There is only the header (nav section), hero image and page headings. The heading is simply the brand name - "Limitless". The sub-heading is a call to action - "Go Further". This sub-heading doubles as a button that, when clicked, takes the user to the Go Further page, where they can submit their details and sign up for a consultation. 
 
-Scrolling down the homepage reveals four sections - Strength, Endurance, Diet and Recovery. Each section offers an insight into what a full Limitless Programme contains.
+Scrolling down the homepage reveals four sections - Strength, Endurance, Nutrition and Recovery. Each section offers an insight into what a full Limitless Programme contains.
 
 ### Events Page
 ![Events Page Screenshot](/assets/readme-images/features-events.webp)
@@ -173,12 +172,22 @@ At the very bottom of the footer, evenly spread across the viewport, are the rec
 ### Navigation Bar
 ![Nav Bar Screenshot](/assets/readme-images/features-nav-bar.webp)
 
-The header on each page contains the Navigation Bar. On the homepage, there is an additional nav bar, specifically for navigating the homepage (as seen in the above screenshot). Both nav bars are designed to stick to the top of the viewport, so as the user scrolls, they will always have access to the nav bar. This provides ease of navigation around the website. If the user clicks on the page that they are already on, they are smoothly scrolled back to the top of that page. 
-
-### Page Navigation 
+The header on each page contains the Navigation Bar, with the current page indicated by a soft white glow around the text. On the homepage, there is an additional nav bar, specifically for navigating the homepage (as seen in the above screenshot). Both nav bars are designed to stick to the top of the viewport, so as the user scrolls, they will always have access to the nav bar. This provides ease of navigation around the website. If the user clicks on the page that they are already on, they are smoothly scrolled back to the top of that page. When the user hovers their cursor over a different page in the nav bar, the text for that page will begin to glow, providing the user a positive experience with visual feedback. 
 
 ### Dropdown Menu
+![Dropdown Menu Screenshot 1](/assets/readme-images/features-dropdown-menu-1.webp)
+
+![Dropdown Menu Screenshot 2](/assets/readme-images/features-dropdown-menu-2.webp)
+
+When the viewport is too narrow to facilitate the page nav menu on the Homepage, a dropdown button will appear instead. Users can toggle this dropdown button to reveal/hide the page nav menu, now displayed in a vertical format. This adds an additional layer of responsiveness to the page, maintaining a good user experience even on particularly narrow devices.
 
 ### Links
 
+All links feature aria-labels to indicate to users accessing the page with a screen reader where the link will take them. Any link to an external website will open in a new tab in the user's browser. Furthermore, all links to external websites utilise the "noopener" attribute to enhance the user's security when navigating to a new website.
+
+To ensure consistency in each pages' aesthetics, the defeault text decorations for all links (blue colour, underlined, purple colour once clicked) have been removed. 
+
 ### Buttons
+![Buttons Screenshot](/assets/readme-images/features-buttons.webp)
+
+Throughout the website I have used several buttons. Each of these buttons work in the same way as the links described above. I designed each of the 'Read more' buttons using Photopea, an online photo editor. When a user hovers their cursor over the 'Go Further' button on the Homepage, the colours of the button invert and the box shadow disappears, to provide the user with satisfying visual feedback.
