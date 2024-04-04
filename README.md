@@ -18,7 +18,7 @@ Also on the website, you can find upcoming fitness events with links to find out
 * [Images](#images)
 * [Accessiblity](#accessiblity)
 * [Responsiveness](#responsiveness)
-### [Features](#features)
+### [Features](#features-1)
 * [Homepage](#homepage)
 * [Events Page](#events-page)
 * [Go Further Page](#go-further-page)
@@ -29,7 +29,7 @@ Also on the website, you can find upcoming fitness events with links to find out
 * [Dropdown Menu](#dropdown-menu)
 * [Links](#links)
 * [Buttons](#buttons)
-### [Future Features](#future-features)
+### [Future Features](#future-features-1)
 ### [Technologies Used](#technologies-used)
 * [Languages](#languages)
 ### [Frameworks, Libraries & Programs Used](#frameworks#)
@@ -129,4 +129,56 @@ All pages are designed to be responsive across an array of devices, regardless o
 
 <details><summary>Screenshots of Strength Section across different sized devices:</summary><p align="left"><img src="https://res.cloudinary.com/drnx69cce/image/upload/v1712186581/strength-samples_jf5f56.webp"></p></details>
 
-### Features
+## Features
+
+### Homepage
+![Homepage Screenshot](/assets/readme-images/features-hompage.webp)
+
+The purpose of the homepage is to grab the user's attention, convey the general purpose of the website (the user should identify that Limitless is a fitness brand), and build the user's intrigue as to what Limitless has to offer. This is done with a visually engaging hero image of an athlete using battle ropes, with the heading and sub-heading displayed prominently around the focal point of the hero image. There is very little clutter at the top of the homepage, as this is the first thing the user sees. There is only the header (nav section), hero image and page headings. The heading is simply the brand name - "Limitless". The sub-heading is a call to action - "Go Further". This sub-heading doubles as a button that, when clicked, takes the user to the Go Further page, where they can submit their details and sign up for a consultation. 
+
+Scrolling down the homepage reveals four sections - Strength, Endurance, Diet and Recovery. Each section offers an insight into what a full Limitless Programme contains.
+
+### Events Page
+![Events Page Screenshot](/assets/readme-images/features-events.webp)
+
+The purpose of the Events page is to evoke a sense of community in the user, as well as promote specific fitness events. This is again conveyed with a hero image (depicting group activity), an engaging heading (encouraging a sense of community) and a call to action as a sub-heading (promoting the below-advertised events). 
+
+This page is also split into four sections each with a similar yet distinctive colour scheme to make the division between sections clear. Each colour scheme is based on the respective event's own logo, to create a sense of cohesion. As well as providing short, punchy snippets of information about the events, each section has a 'Read more' button that takes users to the respective websites of each event (via a new tab).
+
+### Go Further Page
+![Go Further Page Screenshot](/assets/readme-images/features-go-further.webp)
+
+"Go Further" acts as both the tagline to the Limitless brand and the primary call to action. It's imploring users to go further with their fitness, and to use Limitless to achieve that. The Go Further page is therefore where users can sign up to start their Limitless journey. Here the sub-heading from the Homepage is repeated, but this time as the main heading. This callback creates a sense of continuity, and the repetition reaffirms the brand identity. 
+
+This page features a form that captures information about the user that is pertinent to their consultation. There are a variety of form features, including radio buttons, checkboxes, text input and dropdown menues. Key information, such as the user's email address, must be completed in order for the form to submit. Any missed/incorrectly completed sections will be highlighted to the user upon failing to submit the form.
+
+As well as this form, a Google Maps iframe has been embedded in the page to give users an alternative way to contact Limitless staff, making it quick and easy for users to identify the location of the Limitless Gym so that they can visit it in person. 
+
+### Form Submitted Page
+![Form Submitted Page Screenshot](/assets/readme-images/features-form-submitted.webp)
+
+Upon submitting their form, users are directed to a page congratulating them on taking the first step on their Limitless journey. Users are assured that a coach will contact them shortly, and offered a sneak preview at one of the workout videos offered by Limitless. This is presented in an embedded YouTube video. From here, users can watch the video or navigate their way back to the other pages.
+
+### Footer
+![Footer Screenshot](/assets/readme-images/features-footer.webp)
+
+The footer section is consistent across each page. It promotes the brands that Limitless is partnered with by using each of their logos. Clicking on these logos takes the user to the companies' respective websites (via a new tab).
+
+To the bottom left of the footer is Limitless' mission statement, headed by the brand's name and tagline. The mission statement reinforces the purpose of the website and the brand's identity. 
+
+To the bottom right of the footer is Limitless' contact information. Conventionally, the footer is where users would expect to find contact information, and so adhering to this convention provides users with a positive experience of normality. Subverting the user's expectations should only be done to enhance the user's experience - otherwise, conventions such as these should be followed. 
+
+At the very bottom of the footer, evenly spread across the viewport, are the recognised logos for several social media platforms. Clicking these will direct the user (via a new tab) to Limitless' respective social media pages.
+
+### Navigation Bar
+![Nav Bar Screenshot](/assets/readme-images/features-nav-bar.webp)
+
+The header on each page contains the Navigation Bar. On the homepage, there is an additional nav bar, specifically for navigating the homepage (as seen in the above screenshot). Both nav bars are designed to stick to the top of the viewport, so as the user scrolls, they will always have access to the nav bar. This provides ease of navigation around the website. If the user clicks on the page that they are already on, they are smoothly scrolled back to the top of that page. 
+
+### Page Navigation 
+
+### Dropdown Menu
+
+### Links
+
+### Buttons
