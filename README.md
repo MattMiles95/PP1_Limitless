@@ -353,6 +353,7 @@ The following features were manually tested on each of the above browsers and de
 #### Additional Testing
 * The wesbite was also extensively audited using Chrome DevTools throughout the development process.
 * Once in its final stages, friends and family were invited to use the website and provide feedback on their personal user experience.
+* The functionality of the form was tested by using a push method to "https://formdump.codeinstitute.net/", to confirm that the correct names and values were being captured by the form. Once tested, I reverted the method to "GET" and the action to "form-submitted.html", to give a more realistic experience of what a user might expect when signing up to a service on a website.
 
 ### Bugs and Fixes
 During the development of my website, I encountered several bugs that required fixes. I have documented these below:
